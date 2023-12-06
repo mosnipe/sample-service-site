@@ -82,3 +82,4 @@ jobs:
           webhook_url: "https://mosnipe.g.kuroco.app/direct/menu/github/"
           webhook_secret: "acce7fb7bd08d21135e851e7e95f3173"
           data: '{"single_zip":"0","domain":"mosnipe.g.kuroco-front.app", "repository":"${{ github.repository }}", "run_id":"${{ github.run_id }}", "hash":"${{ github.sha }}"}'
+//test
