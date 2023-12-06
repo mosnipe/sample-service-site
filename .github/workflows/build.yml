@@ -1,3 +1,6 @@
+- name: Install dependencies
+  run: npm install
+
 name: Build and deploy to Kuroco front
 on:
   push:
