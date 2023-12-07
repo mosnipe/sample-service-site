@@ -44,7 +44,7 @@
   
   <style>
   body {
-    margin: 0;
+    margin: 6;
     font-size: 1em;
     line-height: 1.5;
   }
