@@ -1,9 +1,6 @@
 <template>
   <main>
-    <header
-      class="header"
-      :style="{ backgroundImage: `url(${response.details.ext_1.url})` }"
-    >
+    <header class="header">
       <div class="header__text">
         <h1>{{ response.details.ext_2 }}</h1>
         <p>{{ response.details.ext_3 }}</p>
@@ -18,7 +15,6 @@
           :key="n.slag"
           class="works__item"
         >
-          <img :src="n.ext_4.url" />
           <div class="works__item__text">
             <h3>{{ n.ext_5 }}</h3>
             <p>{{ n.ext_6 }}</p>
