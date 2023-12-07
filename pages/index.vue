@@ -2,31 +2,34 @@
   <main>
     <header
       class="header"
-      :style="{ backgroundImage: `url(${response.ext_1.url})` }"
+      :style="{ backgroundImage: `url(${response.details.ext_1.url})` }"
     >
       <div class="header__text">
-        <h1>{{ response.ext_2 }}</h1>
-        <p>{{ response.ext_4 }}</p>
+        <h1>{{ response.details.ext_2 }}</h1>
+        <p>{{ response.details.ext_3 }}</p>
       </div>
     </header>
 
     <section>
-      <h2>{{ response.ext_2 }}</h2>
-      <div>
-        <img :src="response.ext_1.url" />
-        <div>
-          <h3>{{ response.ext_5 }}</h3>
-          <p>{{ response.ext_6 }}</p>
-          <p>設置年月: {{ response.ext_7 }}</p>
-          <p>配置場所: {{ response.ext_8 }}</p>
-          <p>備考: {{ response.ext_9 }}</p>
-        </div>
-      </div>
+      <h2>WORKS</h2>
+      <ul>
+        <li
+          v-for="n in response.details.ext_4"
+          :key="n.slag"
+          class="works__item"
+        >
+          <img :src="n.ext_4.url" />
+          <div class="works__item__text">
+            <h3>{{ n.ext_5 }}</h3>
+            <p>{{ n.ext_6 }}</p>
+          </div>
+        </li>
+      </ul>
     </section>
 
     <section class="about">
       <h2>ABOUT</h2>
-      <p>{{ response.ext_4 }}</p>
+      <p v-html="response.details.ext_7"></p>
     </section>
   </main>
 </template>
@@ -38,6 +41,7 @@ export default {
   },
 };
 </script>
+
 
 <style>
 body {
