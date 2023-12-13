@@ -3,7 +3,7 @@
     <header class="header">
       <div class="header__text">
         <h1>{{ response.details.ext_2 }}</h1>
-        <p>{{ response.details.ext_3 }}</p>
+        <p v-html="response.details.ext_3">{{ response.details.ext_4 }}</p>
       </div>
     </header>
 
