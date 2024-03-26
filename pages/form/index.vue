@@ -87,7 +87,7 @@ const FORM_ID = 5; // 作成したフォーム定義のID
 
 export default {
   async asyncData({ $axios }) {
-    const response = await $axios.$get(`https://mosnipe.g.kuroco-front.app/rcms-api/8/form/${FORM_ID}`);
+    const response = await $axios.$get(`https://mosnipe.g.kuroco.app/rcms-api/8/form/${FORM_ID}`);
     return {
       name: response.details.inquiry_name,
       info: response.details.inquiry_info,
