@@ -23,25 +23,6 @@
         </div>
       </div>
 
-      <div class="row--status">
-        <h2>サンクス文言</h2>
-        <div>
-          <p v-for="(line, idx) in textLines2texts(thanksText)" :key="idx">
-            {{ line }}
-          </p>
-        </div>
-      </div>
-
-      <div class="row--status">
-        <h2>フォーム項目</h2>
-        <div class="row--internal">
-          <div v-for="col in cols" :key="col.key">
-            <p>[{{ col.title }}]</p>
-            <pre>{{ col }}</pre>
-          </div>
-        </div>
-      </div>
-
       <div v-for="col in cols" :key="col.objKey" class="row--form">
         <h2>[{{ col.title }}]</h2>
                 <input
