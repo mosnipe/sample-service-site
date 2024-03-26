@@ -87,7 +87,7 @@ const FORM_ID = 5; // 作成したフォーム定義のID
 
 export default {
   async asyncData({ $axios }) {
-    const response = await $axios.$get(`https://mosnipe.g.kuroco-front.app/rcms-api/8/form/${FORM_ID}`);
+    const response = await $axios.$get(`/rcms-api/5/form/${FORM_ID}`);
     return {
       name: response.details.inquiry_name,
       info: response.details.inquiry_info,
@@ -111,13 +111,14 @@ export default {
       const fm = new FormData();
       fm.append('file', e.target.files[0]);
 
-      const { file_id } = await this.$axios.$post(`/rcms-api/8/file`, fm, {
+      const { file_id } = await this.$axios.$post(`/rcms-api/5/file`, fm, {
         headers: {
           'Content-Type': 'multipart/form-data', // required to post file as a binary
         },
       });
       this.file_id = file_id;
     },
+
     textLines2texts(textLines = '') {
       return textLines.split('\r\n');
     },
@@ -146,7 +147,7 @@ export default {
       try {
         // post data
         const { id } = await this.$axios.$post(
-          `/rcms-api/8/form?id=${FORM_ID}`,
+          `/rcms-api/5/form?id=${FORM_ID}`,
           body
         );
         this.error = null;
