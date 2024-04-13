@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* sidebar1なし,sidebar2あり */
+
+#main {
+	margin-right: -320px;
+}
+
+#main_a {
+	margin-left: 0;
+	margin-right: 320px;
+	padding: 0 30px 10px 0;
+}
+#sidebar2 {
+	width: 320px;
+	margin-right: -320px;
+}

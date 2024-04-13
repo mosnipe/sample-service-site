@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url("/ssi/css/sp-common.css");
+@import url("/ssi/css/sp-layout.css");
+@import url("/ssi/css/sp-g-navi.css");
+@import url("/ssi/css/sp-parts.css");
+
+#main_a p {
+	padding: 0px 10px;
+}
+#machine_facility form > div {
+	width: auto;
+	margin: 0px;
+	padding: 10px;
+	display: block;
+}
+
+#main_body #machine_facility h2 {
+	display: block;
+	width: auto;
+	font-size: 1.4rem;
+	text-align: left;
+}
+
+#machine_facility #search_keyword .selection {
+	display: block;
+	width: auto;
+}
+
+.selection input[type="text"] {
+	width: auto;
+}
+
+
+#main #main_a #main_body #search_class .selection fieldset > ul {
+	display: block;
+	width: auto;
+	margin: 0px 0px 10px 0px;
+}

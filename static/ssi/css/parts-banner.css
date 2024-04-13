@@ -1,0 +1,280 @@
+@charset "utf-8";
+
+
+/* 事業PR */
+
+#jigyou_pr{
+	float: left;
+	width: 470px;
+	margin-right: 10px;
+	background: #EEEAEA;
+	position: relative;
+	padding-bottom: 10px;
+}
+#jigyou_pr h2{
+	display: none;
+	margin: 15px 0px 0px 15px;
+}
+#jigyou_pr_banner{
+	position: relative;
+	width: 380px;
+	height: 90px;
+	margin: 3px auto;
+}
+#jigyou_pr_banner ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	height: 80px;
+}
+#jigyou_pr_banner li{
+	display: inline-block;
+	margin: 5px;
+	width: 180px;
+	height: 80px;
+	overflow: hidden;
+}
+#jigyou_pr_banner li img{
+	width: 180px;
+	height: 80px;
+}
+
+#pr_control {
+	display: inline-block;
+	vertical-align: middle;
+}
+#pr_control button {
+	border: none;
+	background: none;
+	margin: 0px 5px;
+	padding: 0px;
+	cursor: pointer;
+}
+#pr_control button#pr_control_prev {
+	position: absolute;
+	top: 5px;
+    left: 10px;
+}
+#pr_control button#pr_control_next {
+	position: absolute;
+	top: 5px;
+    right: 10px;
+}
+#pr_control button#pr_control_play {
+	display: none;
+}
+#top_jigyo_slide_btn {
+	text-align: center;
+}
+#top_jigyo_slide_btn ul.slick-dots {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#top_jigyo_slide_btn ul.slick-dots li {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+	width: 18px;
+	height: 18px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	overflow: hidden;
+	margin: 0px 5px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#top_jigyo_slide_btn ul.slick-dots li button {
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	overflow: hidden;
+	text-indent: -9999em;
+	border: 0;
+	background: url(/img/icon_pager_off.png) no-repeat center center #eeeaea;
+	color: #000000;
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#top_jigyo_slide_btn ul.slick-dots li.slick-active button {
+	background-image: url(/img/icon_pager_on.png);
+	/* background: url(/img/icon_pager_on.png) no-repeat center center; */
+	/* color: #ffffff; */
+}
+
+
+
+
+/* 広告バナー */
+.banner_a {
+	margin:5px 14px 5px 14px;
+}
+
+.banner_a_end {
+	margin:5px 14px 0px 14px;
+}
+
+.banner_b {
+	margin:5px 11px 0px 0px;
+	text-align:right;
+}
+
+.banner_c {
+/*	width:80%;
+	float:left;*/
+	text-align:left;
+	margin:0px;
+	padding:0px 0px 0px 10px;
+}
+
+.banner_c li {
+	float:left;
+	list-style-type: none;
+	display:block;
+	font-size:1.2em;
+	width:190px;
+	height:60px;
+	margin:0px 8px 8px 0px;
+	padding:0px;
+}
+
+.banner_c li img {
+	width:190px;
+	height:60px;
+}
+
+/* IE6 */
+*html .banner_c li {
+	width:190px;
+	height:60px;
+}
+
+.banner_d {
+	margin:15px 23px 5px 5px;
+	float:right;
+}
+
+.banner_text {
+	text-align:left;
+}
+
+
+#banner_footer1 {
+	clear: both;
+	width: 100%;
+	margin: 5px 0px 5px 0px;
+	padding: 0px;
+	background: #E6E7EA;
+}
+
+#banner_footer_box {
+	display: table;
+	margin:0px;
+	padding:20px;
+/*	width:100%;*/
+}
+
+#banner_footer2 {
+	display: table-cell;
+	width: 80px;
+	text-align: center;
+	vertical-align: middle;
+	padding:0px;
+	margin:0px;
+	background: #666666;
+}
+#banner_footer2 h2{
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner_footer2 .text_d2 {
+	margin-top:-1.5em !important;
+	margin-bottom:5px !important;
+}
+
+#banner_footer3 {
+	display: table-cell;
+	vertical-align: top;
+	padding:0px;
+	text-align:left;
+}
+
+#banner_title {
+	color:#333333;
+	margin:1px 1px 0px 5px;
+	padding:1px 0px 1px 22px;
+	font-size: 100%;
+	background-image: url(/img/logo_arrow_1.gif);
+	background-repeat: no-repeat;
+	background-position:50% 40%;
+}
+
+.menu_list_f ul {
+	padding:2px;
+}
+
+.menu_list_f li {
+	text-align:left;
+	font-size:1.2em;
+	border:1px solid #CCCCCC;
+}
+
+.menu_list_f span .banner_text {
+	display:block;
+	width:170px;
+}
+
+/* 分類ページに横並びの広告 */
+#koukoku_side {
+	float:left;
+	text-align:left;
+	width:auto;
+	margin:-5px 0px 8px -30px;
+	padding:0px;
+}
+#koukoku_side ul {
+	margin:0px;
+	padding:0px;
+}
+#koukoku_side li {
+	float:left;
+	text-align:center;
+	display:block;
+	list-style-type: none;
+	margin:0px 5px 5px 0px;
+	padding:0px;
+}
+
+/* 縦並びのバナー */
+/* use */
+.banner_list_tate {
+	width:184px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+/* use */
+.banner_list_tate ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* use */
+.banner_list_tate li {
+	width:184px;
+	margin: 5px 0px 0px 0px;
+	padding:0px;
+	list-style-type: none;
+	border:none;
+}

@@ -1,0 +1,185 @@
+@charset "utf-8";
+@import url("/ssi/css/kanren.css");
+@import url("/ssi/css/parts-general.css");
+@import url("/ssi/css/g-navi.css");
+@import url("/ssi/css/layout.css");
+@import url("/ssi/css/parts.css");
+
+
+/* 本文中「キーワード（本文）から探す用 */
+#faq_box2 #top_search_keyword{
+	float:none !important;
+}
+
+/* ヘッダー画像 */
+#faq_back {
+	background:url(/img/faq_back.jpg) right top no-repeat;
+	height:111px;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+
+/* sidebar1あり,sidebar2なし */
+#main {
+	margin-right:0px !important;
+}
+
+#main_a {
+	margin-right:0px !important;
+	margin-left:270px !important;
+	padding:0px 15px 10px 15px !important;
+}
+
+#sidebar1 {
+	clear:both;
+	width:260px;
+	margin-top:0px !important;
+	margin-right:-260px !important;
+}
+
+
+/* ランキング */
+#sidebar1 .rank_title {
+	width:212px;
+	margin:0;
+	padding:12px 0 5px 44px;
+	background:url(/img/faq_sidebar1_back.gif) no-repeat left top;
+}
+
+#sidebar1 .rank_title h2 {
+	margin:0;
+	padding:0;
+	background-image:none !important;
+}
+
+#sidebar1 .rank_list {
+	width:254px;
+	background:url(/img/faq_rank_list_back.gif) no-repeat left top;
+	margin:0 0 10px 0;
+	padding:5px 0px 0px 0px;
+	border-color:#CCCCCC;
+	border-style:solid;
+	border-width:0 1px 1px 1px;
+}
+
+#sidebar1 .rank_list ul {
+	margin:0;
+	padding:0;
+}
+#sidebar1 .rank_list li {
+	list-style-type:none;
+	padding:2px 0 2px 32px;
+	line-height:1.4;
+}
+.rank_list li.no0 {
+	background:url(/img/icon_faq0.gif) no-repeat left top;
+}
+.rank_list li.no1 {
+	background:url(/img/icon_faq1.gif) no-repeat left top;
+}
+.rank_list li.no2 {
+	background:url(/img/icon_faq2.gif) no-repeat left top;
+}
+.rank_list li.no3 {
+	background:url(/img/icon_faq3.gif) no-repeat left top;
+}
+.rank_list li.no4 {
+	background:url(/img/icon_faq4.gif) no-repeat left top;
+}
+.rank_list li.no5 {
+	background:url(/img/icon_faq5.gif) no-repeat left top;
+}
+
+
+
+/* その他 */
+
+#main_body h2 {
+	margin-top:5px;
+	*margin-top:0px;
+}
+
+
+/*20110312追加*/
+#faq_box1 {
+	padding: 0px ;
+	margin: 0px ;
+}
+#main_a #faq_box1 h2 {
+	background:none repeat scroll 0 0 #FFFFFF !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	border-top: 0px !important;
+}
+
+#faq_box2 {
+	float:left;
+	width:100%;
+	background: #d6ebcc;
+	padding: 0px;
+	margin: 0px;
+}
+#faq_box2_a {
+	padding: 21px;
+	margin: 0px;
+
+}
+/* Googleカスタム検索ここから */
+
+*html #faq_box2_a{
+	margin:5px 5px 0px 0px;
+}
+
+#cse-search-box2 {
+	margin:0px;
+	padding:0px;
+}
+/* Googleタイトル */
+.search_tit{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 10px;
+}
+/* 検索ボタン */
+#submit2{
+	margin:0px 0px -6px 0px;
+	padding:0px 0px 0px 0px;
+}
+*html body #submit2{
+	margin:0px 0px -4px 0px;
+}
+/*IE7のみ*/
+*:first-child+html #submit2{
+	margin:0px 0px -3px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+/*検索BOX*/
+#tmp_query2{
+	width:130px;
+	font-size:12px;
+	border:solid 1px #7F9DB9;
+	height: 14px;
+	padding:0px 0px 0px 0px;
+	margin:3px 0px 0px 0px;
+}
+
+/* 2011-03-20 Nishikawa */
+#faq_box2_a #tmp_query2 {
+	font-size:14px !important;
+	height: 18px !important;
+	margin: 0px 0px 1px 0px !important;
+}
+
+
+*html body #tmp_query2{
+	margin:-1px 0px 0px 0px;
+	height: 21px;
+}
+
+.form_margin {
+	margin:0px;
+	padding:0px;
+}
+/* Googleカスタム検索ここまで */

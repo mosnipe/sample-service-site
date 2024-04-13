@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url("detail.css");
+
+
+.nkeika_details dl {
+	border: 1px solid #D2D1CF;
+}
+
+.nkeika_details dt,.nkeika_details dd {
+	padding: 10px;
+	border-top: 1px solid #FDFBFA;
+	border-bottom: 1px solid #D3D0D0;
+}
+
+.nkeika_details dt {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	float: left;
+	width: 10em;
+	text-align: right;
+	background-color: #EEEAE9;
+	border-right: 1px solid #D3D0D0;
+	-webkit-align-items: center;
+	-ms-align-items:center;
+	align-items: center;
+	-webkit-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	justify-content: flex-start;
+}
+
+.nkeika_details dd {
+	margin-left: 11.4em;
+}
+
+.nkeika_details dl.nkeika_icon {
+	border: none;
+}
+.nkeika_details dl.nkeika_icon dd {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.bid_table {
+	margin-bottom: 1em;
+}
+
+#main #main_a .bid_table table {
+	border-color: #D2D1CF;
+	border-width: 0px;
+}
+
+#main #main_a .bid_table th {
+	background-color: #EEEAE9;
+	text-align: center;
+}
+
+#main #main_a .bid_table th,#main #main_a .bid_table td {
+	padding: 15px;
+}
+
+.bid_table th:nth-of-type(1) {
+	width: 20%;
+}
+
+.bid_table th:nth-of-type(2),.bid_table td:nth-of-type(1) {
+	width: 17%;
+}
+
+.bid_table th:nth-of-type(3),.bid_table td:nth-of-type(2) {
+	width: 17%;
+}
+
+.bid_table th:nth-of-type(4),.bid_table td:nth-of-type(3) {
+	width: 17%;
+}
+.bid_table th:nth-of-type(5),.bid_table td:nth-of-type(4) {
+	width: 29%;
+}

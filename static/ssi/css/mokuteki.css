@@ -1,0 +1,92 @@
+@charset "utf-8";
+@import url("layout.css");
+@import url("g-navi.css");
+@import url("general2.css");
+@import url("parts-general.css");
+@import url("parts.css");
+
+.mo-box{
+	width:100%;
+	margin: 0px 0px 0.6em 0px;
+	padding: 0px;
+	float: left;
+}
+
+
+.mo-box1{
+	border: 1px solid #CCCCCC;
+	width:49.5%;
+	height:10em;
+	text-align:left;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	background: url(/img/mokuteki/mokuteki_back.gif) repeat-x left top;
+}
+
+.mo-box2{
+	border: 1px solid #CCCCCC;
+	width:49.5%;
+	height:10em;
+	text-align:left;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	background: url(/img/mokuteki/mokuteki_back.gif) repeat-x left top;
+}
+
+.box-tit1{
+	width:100%;
+	height:40px;
+	margin: 0px;
+	padding: 0px;
+	background: url(/img/mokuteki/mokuteki_tit01.gif) no-repeat left top;
+}
+.box-tit2{
+	width:100%;
+	height:40px;
+	margin: 0px;
+	padding: 0px;
+	background: url(/img/mokuteki/mokuteki_tit02.gif) no-repeat left top;
+}
+.box-tit3{
+	width:100%;
+	height:40px;
+	margin: 0px;
+	padding: 0px;
+	background: url(/img/mokuteki/mokuteki_tit03.gif) no-repeat left top;
+}
+.box-tit4{
+	width:100%;
+	height:40px;
+	margin: 0px;
+	padding: 0px;
+	background: url(/img/mokuteki/mokuteki_tit04.gif) no-repeat left top;
+}
+.box-tit5{
+	width:100%;
+	height:40px;
+	margin: 0px;
+	padding: 0px;
+	background: url(/img/mokuteki/mokuteki_tit05.gif) no-repeat left top;
+}
+
+
+/* メニュー */
+.menu_list_mo {
+	float: left;
+	margin:0px;
+	padding:0px;
+}
+.menu_list_mo ul {
+	margin: 0px;
+	padding: 0px;
+	text-align:left;
+}
+.menu_list_mo li {
+	margin:0px;
+	padding:1px;
+	list-style-type: none;
+	list-style-image: url(/img/icon_migi3.gif);
+	list-style-position: outside;
+}

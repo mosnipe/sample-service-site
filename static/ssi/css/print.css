@@ -1,0 +1,35 @@
+@charset "utf-8";
+body {
+	background:#FFFFFF;
+	color:#000000;
+}
+
+#haikeigazou {
+	width: 100%;
+	background:#FFFFFF !important;
+	background-image:none !important;
+}
+#honbuns {
+	width: 100%;
+	background:#FFFFFF;
+}
+
+
+#main_detail_b {
+
+	width:700px;
+
+}
+
+
+
+/* 非表示項目の設定 */
+
+#header {
+	display: none;
+	float:none;
+}
+#footer {
+	display: none;
+	float:none;
+}

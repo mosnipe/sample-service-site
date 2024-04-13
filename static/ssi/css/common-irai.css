@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import url("detail.css");
+
+#ryakugou {
+	margin: 15px 0px;
+	text-align: right;
+	font-size: 90%;
+}
+#main #main_a #ryakugou ul {
+	display: inline-block;
+	margin: 20px 0px;
+	padding: 0px;
+	list-style: none;
+}
+#ryakugou li {
+	display: inline-block;
+	margin-left: 12px;
+}
+
+#main #main_a #irai_detail table {
+	width: 100%;
+	border-color: #D2D1CF;
+	border-width: 0px;
+}
+
+#main #main_a #irai_detail th {
+	background-color: #EEEAE9;
+}
+
+#main #main_a #irai_detail th,#main #main_a #irai_detail td {
+	padding: 13px;
+}
+
+#irai_detail table caption {
+	display: none;
+}
+
+#irai_detail th.th_01,#irai_detail td.td_02 {
+	width: 45%;
+}
+
+#irai_detail th.th_02,#irai_detail td.td_03 {
+	width: 13%;
+}
+
+#irai_detail th.th_03,#irai_detail td.td_04  {
+	width: 14%;
+}
+
+#irai_detail th.th_04,#irai_detail td.td_05 {
+	width: 14%;
+}
+
+#irai_detail th.th_05,#irai_detail td.td_06 {
+	width: 14%;
+}
+#irai_detail td.td_01 {
+	width: 100%;
+}
+#irai_detail td.td_03 {
+	text-align: center;
+}
+#irai_detail td.td_04 ,#irai_detail td.td_05{
+	text-align: right;
+}
+
+
+/* サブサイト用左メニュー */
+#side_menu {
+	border: 1px solid #D2D1CF;
+	margin-bottom: 15px;
+}
+#side_menu_title {
+	padding: 1em 0px;
+	border-bottom: 1px solid #D2D1CF;
+	background-color: #EEEAE9;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+#side_menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 15px;
+}
+
+#side_menu li {
+	margin-bottom: 5px;
+}

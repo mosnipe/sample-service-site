@@ -1,0 +1,12 @@
+@charset "utf-8";
+@import url("/ssi/css/layout.css");
+@import url("/ssi/css/g-navi.css");
+@import url("/ssi/css/general2.css");
+@import url("/ssi/css/parts-general.css");
+@import url("/ssi/css/parts.css");
+@import url("/ssi/css/parts-detail.css");
+@import url("/ssi/css/kanren.css");
+
+#main_body {
+	margin-bottom: 30px;
+}

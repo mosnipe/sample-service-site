@@ -1,0 +1,207 @@
+@charset "utf-8";
+@import url(color-common.css);
+
+#search_trend_word a {
+	color: #ffffff;
+}
+.cal_sun {
+	background-color: #b43232 !important;
+}
+.cal_sat {
+	background-color: #4646ff !important;
+}
+.cal_mon, .cal_tue, .cal_wed, .cal_thu, .cal_fri {
+	background-color: #0000cc !important;
+}
+
+/* 共通部分 */
+html, body {
+	color: #FFFF00;
+	background-color: #0000ff !important;
+}
+#mymainback, #main, #main_a, #main_body, .pankuzu, #honbuns {
+	background-color: #0000ff !important;
+}
+a:link,
+.sidebar1_b a:link {
+	text-decoration: underline;
+	color: #FFFFFF !important;
+}
+a:visited {
+	text-decoration: underline;
+	color: #ececf4;
+}
+a:active {
+	text-decoration: underline;
+	color: #CC0000;
+}
+a:hover,
+.sidebar1_b a:hover {
+	text-decoration: underline;
+	color: #FFFF00 !important;
+}
+#main h2, #main h3, #main h4, #main h5, #main h6 {
+	background-color: #0000AA !important;
+	color: #FFFF00 !important;
+}
+#main h1 {
+	background-color: #0000AA !important;
+	color: #FFFFFF !important;
+}
+.calendar_style5 {
+	background-color: #b41e1e !important;
+}
+.calendar_style10 {
+	background-color: #3232ff !important;
+}
+#sidebar1_box1_h2, .sidebar1_box2_h2 {
+	background-color: #333333 !important;
+}
+#sidebar2 h2, #sidebar2 h3 {
+	background-color: #0000AA !important;
+}
+#kinkyu .span_a {
+	color: #FFFFFF !important;
+}
+#site_name h1 {
+	color: #FFFFFF !important;
+}
+
+
+/* 検索 */
+#tmp_query:focus {
+	color: #FFFFFF !important;
+}
+
+/* フッター */
+.footer_link_box {
+	border-right-color: #FFFFFF !important;
+}
+.footer_link_box:first-child {
+	border-left-color: #FFFFFF !important;
+}
+.footer_navi li {
+	border-left-color: #FFFFFF !important;
+}
+
+/* トップへ戻る */
+#back_or_pagetop {
+	background-color: #0000AA !important;
+}
+#back_or_pagetop:before {
+	border-bottom-color: #0000AA !important;
+}
+#back_or_pagetop #to_page_top {
+	background-color: #0000AA !important;
+}
+
+/* サブサイトのフッタ用 */
+#site_footer {
+	background-color: #000066 !important;
+}
+
+/* 最終ページお問い合わせタイトル */
+#section_footer_title {
+	background: #000066 !important;
+}
+
+/* 観光トップのサイドメニュー */
+#sidebar1kan {
+	background: #000066 !important;
+}
+
+/* 緊急ページ */
+#emer_info {
+	background-color: #0000AA !important;
+}
+
+/* アクセシビリティチェッカー */
+.errrange a:link {
+	text-decoration: underline;
+	color: #0033CC !important;
+}
+.errrange a:visited {
+	text-decoration: underline;
+	color: #551A8B !important;
+}
+.errrange a:active {
+	text-decoration: underline;
+	color: #CC0000 !important;
+}
+.errrange a:hover {
+	text-decoration: underline;
+	color: #FF4500 !important;
+}
+#site_name a {
+	color: #ffffff;
+}
+.list_ccc .span_a {
+	color: #ffff00!important;
+}
+.sidebar1_b {
+	background: none #0000aa;
+}
+
+
+
+#context_category01,
+#context_category02{
+    background:#0000ff;
+}
+#context_category01 *,
+#context_category02 *{
+    background:transparent !important;
+}
+
+
+#top_search_a ul li ul li ul:before {
+	border-left-color: #fff;
+}
+#top_search_a ul li#gnav4 ul li ul:before, #top_search_a ul li#gnav5 ul li ul:before, #top_search_a ul li#gnav6 ul li ul:before{
+	border-right-color: #fff;
+}
+
+#top_search_a ul li ul li a {
+	background-color: #00f;
+	color: #fff;
+}
+
+.gs-result .gs-title, .gs-result .gs-title * {
+	color: #fff !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page,
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+	color: #fff !important;
+}
+
+
+#tmp_query {
+	background: rgba(0,0,0,0.3) !important;
+	outline: 1px solid rgba(255,255,255,0.75);
+}
+form[action^="questionnaire"] select, form[action^="questionnaire"] select option{
+	background: #00f;
+	color: #ff0;
+}
+
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+	background: #00a !important;
+	border: none !important;
+	color: inherit !important;
+}
+
+.gsc-input-box {
+	background: #00a !important;
+	border-color: #00c;
+}
+
+.gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
+	background: #00a !important;
+}
+
+/* サブサイト「TIRI NEWS」 */
+.site_tiri #top_search_a ul li {
+	background-color: rgba(255,255,255,0.2) !important;
+}

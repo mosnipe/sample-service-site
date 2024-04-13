@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+body{
+	min-width: 1px;
+	background: none;
+}
+#container{
+	width: auto;
+	padding: 1em;
+	background: none;
+	float: none;
+}
+#mymainback{
+	width: auto;
+	margin-top:0 !important
+}
+#header{
+	display: none;
+}
+#sidebar1{
+	display: none;
+}
+#sidebar2{
+	display: none;
+}
+#main{
+	margin: 0 !important;
+}
+#main_a{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+#download_link{
+	display: none;
+}
+#back_or_pagetop{
+	display: none;
+}
+#footer{
+	display: none;
+}
+#copyright{
+	display: none !important;
+}
+#about_event{
+	display: none !important;
+}
+.pdf_download, .wmplayer_download{
+	display: none;
+}
+#mainimg{
+	display: none;
+}
+.system_box{
+	display: none;
+}

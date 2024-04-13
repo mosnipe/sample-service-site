@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+#main #main_a .calendar_gant_style5{
+	margin:0;
+	padding:0;
+	overflow:visible;
+	width:auto;
+}
+
+.calendar_menu{
+	float: none;
+}
+
+
+#main #main_a table{
+	border:none;
+	width:100%;
+}
+
+#main #main_a table tr:first-child{
+	background:#FFFFD2;
+}
+
+#main #main_a table tr th,#main #main_a table tr td{
+	display:block;
+	border:none;
+	background:none;
+}
+
+#main #main_a table tr th:nth-child(1),#main #main_a table tr th:nth-child(2),#main #main_a table tr td:nth-child(1),#main #main_a table tr td:nth-child(2){
+	display:inline-block;
+}
+#main #main_a table th:nth-child(3),#main #main_a table td:nth-child(3){
+	border-top:1px dotted #cccccc;
+}
+
+#main #main_a table tr td:last-child{
+	border-bottom:1px solid #cccccc;
+}
+
+
+#main #main_a div form {
+	text-align: center;
+}
+#main #main_a #clBtns,
+#main #main_a #clMenu{
+	display: block;
+	padding: 5px;
+}
+#main #main_a #clMenu select{
+	width: 9em;
+	font-size: 13px !important;
+}
+
+#sidebar2 .tit_thema {
+	width:auto !important;
+	float: none;
+	margin-right:0 !important;
+}
+#sidebar2 .menu_list_e2 li {
+	float: none !important;
+}
+
+.calendar_ctg{
+	float:none;
+}
+
+.calendar_ctg ul li, #main_body .calendar_ctg ul li{
+	display:inline-block;
+	margin:10px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.select_disp_month{
+	margin:20px 0;
+}
+
+ul.calendar_index{
+	border:none;
+}
+
+#main input[type="submit"]{
+	padding: 2px 12px;
+	/*margin-top: 12px;*/
+}
+#main input, #main select{
+	vertical-align: middle;
+	padding: 2px 0;
+}

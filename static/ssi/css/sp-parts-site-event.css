@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.event_column_2_box {
+	display: block;
+}
+
+.event_column_2_box > .event_column_box {
+	width: auto;
+	margin: 0;
+}

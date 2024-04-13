@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import url("/ssi/css/layout.css");
+@import url("/ssi/css/g-navi.css");
+@import url("/ssi/css/general.css");
+@import url("/ssi/css/parts-general.css");
+@import url("/ssi/css/parts.css");
+@import url("/ssi/css/kanren.css");
+
+/* ヘッダー画像 */
+#shisetsu_back {}
+
+/* sidebar1あり,sidebar2なし */
+#main {
+	/*margin-right:0px !important;*/
+}
+
+#main_a {
+/*	margin-right:0px !important;
+	margin-left:250px !important;
+	padding:0px 15px 10px 15px !important;
+*/
+}
+
+#sidebar1 {
+/*	clear:both;
+	width:240px;
+	margin-top:0px !important;
+	margin-right:-240px !important;*/
+}
+
+
+/* 施設案内 */
+#sidebar1 .box_guide {
+
+}
+*html #sidebar1 .box_guide {
+	margin:6px 0px 0px 0px;
+}
+
+#sidebar1 .box_guide h2 {
+	width: auto;
+	font-weight: bold;
+	font-size: 100%;
+	margin: 0px;
+	padding: 12px;
+	background: url(/img/subsite_menu_bg.png) repeat-x left bottom;
+}
+
+#sidebar1 .box_guide ul {
+	margin: 0px 0px 10px;
+	padding: 8px;
+	border: 1px solid #cccccc;
+}
+
+#sidebar1 .box_guide li {
+	list-style-type:none;
+	padding:1px 0px 1px 16px;
+	line-height:1.4em;
+	background:url(/img/icon_arrow_orange.png) no-repeat left 6px;
+}
+.box_guide li.on {
+	font-weight:bold;
+}
+
+/* 施設一覧 */
+#box_list h2 {
+	margin-top:0px;
+}
+
+#box_list div {
+	border:1px #0080A5 solid;
+	overflow:auto;
+}
+*html #box_list div {
+	overflow:visible;
+}
+
+#box_list p {
+	margin:14px !important;
+}
+
+#box_list ul {
+	margin:8px 14px !important;
+	padding:0px;
+	overflow:auto;
+}
+*html #box_list ul, *:first-child+html #box_list ul {
+	padding:8px 14px;
+	overflow:visible;
+	haslayout:true;
+	zoom:1;
+}
+
+#box_list li {
+	float:left;
+	list-style-type:none;
+	margin:0px 20px 0px 0px !important;
+	line-height:2.0em;
+}
+*html #box_list li, *:first-child+html #box_list li {
+	white-space:nowrap;
+}
+
+/* googleマップ */
+.box_map {
+	border:1px #0080A5 solid;
+}
+
+#map_canvas {
+	width:100%;
+	height:550px;
+}
+#map_canvas_detail {
+	width: 560px;
+	height: 420px;
+}

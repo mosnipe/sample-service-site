@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import url("detail.css");
+
+.start_date {
+	text-align: right;
+}
+
+.seminar_details dl {
+	border: 1px solid #D2D1CF;
+}
+
+.seminar_details dt,.seminar_details dd {
+	padding: 10px;
+	border-top: 1px solid #FDFBFA;
+	border-bottom: 1px solid #D3D0D0;
+}
+
+.seminar_details dt {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	float: left;
+	width: 10em;
+	text-align: left;
+	background-color: #EEEAE9;
+	border-right: 1px solid #D3D0D0;
+	-webkit-align-items: center;
+	-ms-align-items:center;
+	align-items: center;
+	-webkit-justify-content: flex-start;
+	-ms-justify-content: flex-start;
+	justify-content: flex-start;
+}
+
+.seminar_details dd {
+	margin-left: 11.4em;
+}
+
+/* サブサイト用左メニュー */
+#side_menu {
+	border: 1px solid #D2D1CF;
+	margin-bottom: 15px;
+}
+#side_menu_title {
+	padding: 1em 0px;
+	border-bottom: 1px solid #D2D1CF;
+	background-color: #EEEAE9;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+#side_menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 15px;
+}
+
+#side_menu li {
+	margin-bottom: 5px;
+	line-height: 1.5em;
+}
+
+
+/* リスト */
+#container.list_semi #main_a {
+	width: 100%;
+	margin: 0px;
+	padding-right: 0px;
+}
+
+caption {
+	display: none;
+}
+
+#container.list_semi #main #main_a table {
+	width: 100%;
+}
+#container.list_semi #main #main_a th,
+#container.list_semi #main #main_a td {
+	padding: 10px;
+}
+#container.list_semi #main #main_a th.th_01 {
+	width: 10%;
+}
+#container.list_semi #main #main_a th.th_02 {
+	width: 30%;
+}
+#container.list_semi #main #main_a th.th_03 {
+	width: 18%;
+}
+#container.list_semi #main #main_a th.th_04 {
+	width: 10%;
+}
+#container.list_semi #main #main_a th.th_05 {
+	width: 14%;
+}
+#container.list_semi #main #main_a th.th_06 {
+	width: 18%;
+}
+.seminar_link a {
+	margin-right: 25px;
+}
+
+/* リスト（準備中・募集終了） */
+#container.list_semi.semi2 .link_pdf {
+	margin-top: 20px;
+}
+#container.list_semi.semi2 #main #main_a th.th_01 {
+	width: 15%;
+}
+#container.list_semi.semi2 #main #main_a th.th_02 {
+	width: 40%;
+}
+#container.list_semi.semi2 #main #main_a th.th_03 {
+	width: 15%;
+}
+#container.list_semi.semi2 #main #main_a th.th_04 {
+	width: 15%;
+}
+#container.list_semi.semi2 #main #main_a th.th_05 {
+	width: 15%;
+}

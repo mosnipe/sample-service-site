@@ -1,0 +1,14 @@
+@charset "utf-8";
+@import url(sp-detail.css);
+
+
+.nkeika_details dt {
+	display: block;
+	float: none;
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+}
+.nkeika_details dd {
+	margin: 0px;
+}

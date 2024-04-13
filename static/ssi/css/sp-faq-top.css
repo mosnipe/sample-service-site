@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import url("/ssi/css/sp-common.css");
+@import url("/ssi/css/sp-kanren.css");
+@import url("/ssi/css/sp-parts-general.css");
+@import url("/ssi/css/sp-g-navi.css");
+@import url("/ssi/css/sp-layout.css");
+@import url("/ssi/css/sp-parts.css");
+
+
+#h1_title{
+	width:auto;
+	height:auto;
+	padding:16px;
+	padding-top:85px;
+	text-align:right;
+	text-shadow:
+			-2px -2px 1px #ffffff,
+			-2px  2px 1px #ffffff,
+			 2px -2px 1px #ffffff,
+			 2px  2px 1px #ffffff,
+			 3px  3px 3px #000000;
+}
+
+#main_body h2, #main_body h3, #main_body h4, #main_body h5, #main_body h6{
+	margin-right:0;
+}
+
+#sidebar1{
+	width:100%;
+	padding:0;
+}
+
+#sidebar1 .rank_title{
+	width:auto;
+	background:none;
+	padding-left:4px;
+	border-bottom:3px solid #cccccc;
+
+	background: #e6e6e6;
+	background: -moz-linear-gradient(top,  #e6e6e6 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%);
+	background: -o-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #e6e6e6 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#ffffff',GradientType=0 );
+}
+
+#sidebar1 .rank_list{
+	width:100%;
+	border:none;
+	background:none;
+}
+
+#sidebar1 .rank_list li{
+	background-position:left center;
+	border-bottom:1px solid #cccccc;
+}
+#sidebar1 .rank_list li a{
+	padding:12px 0;
+}
+
+#faq_box2{
+	float:none;
+	width:auto;
+}
+
+#faq_box2_a #tmp_query2{
+	width:75%;
+}

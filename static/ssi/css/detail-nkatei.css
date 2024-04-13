@@ -1,0 +1,43 @@
+@charset "utf-8";
+@import url("detail.css");
+
+
+.nkatei_details dl {
+	border: 1px solid #D2D1CF;
+}
+
+.nkatei_details dt,.nkatei_details dd {
+	padding: 10px;
+	border-top: 1px solid #FDFBFA;
+	border-bottom: 1px solid #D3D0D0;
+}
+
+.nkatei_details dt {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	float: left;
+	width: 10em;
+	text-align: right;
+	background-color: #EEEAE9;
+	border-right: 1px solid #D3D0D0;
+	-webkit-align-items: center;
+	-ms-align-items:center;
+	align-items: center;
+	-webkit-justify-content: flex-end;
+	-ms-justify-content: flex-end;
+	justify-content: flex-end;
+}
+
+.nkatei_details dd {
+	margin-left: 11.4em;
+}
+
+.nkatei_details .nkatei_icon dl {
+	border: none;
+}
+.nkatei_details .nkatei_icon dd {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}

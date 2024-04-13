@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+#vsSP{
+	padding: 12px;
+	color: #fff;
+	background: #367920;
+}
+
+#viewSwitch{
+	display: block;
+	background: #dddfe1;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+#viewSwitch dl{
+	margin: 0px;
+	padding: 0px;
+}
+#viewSwitch dt,
+#viewSwitch dd,
+#viewSwitch ul,
+#viewSwitch li {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+#viewSwitch dt{
+	margin-right: 20px;
+}
+#viewSwitch ul {
+	list-style: none;
+}
+#viewSwitch li{
+	padding: 2px 20px;
+}
+#viewSwitch li{
+	border-right: solid 1px #333333;
+}
+#viewSwitch li:last-child{
+	border-right:none;
+}
+#vsPC{
+	font-weight: bold;
+}
+
+#footer{
+}
+
+#viewSwitch,
+#viewSwitch a{
+	color:#333333;
+}
+
+#mymainback{
+	float:none;
+}

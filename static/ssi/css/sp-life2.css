@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url("/ssi/css/sp-common.css");
+@import url("/ssi/css/sp-layout.css");
+@import url("/ssi/css/sp-parts-general.css");
+@import url("/ssi/css/sp-general2.css");
+@import url("/ssi/css/sp-parts.css");
+@import url("/ssi/css/sp-kanren.css");
+@import url("/ssi/css/sp-g-navi.css");
+@import url("/ssi/css/sp-parts-banner.css");
+
+#main #main_a h3{
+}
+
+#main_a > h3:nth-of-type(1){
+	border-top:1px solid #7CAF49;
+}
+
+#main #main_a h3 a{
+}
+
+#h1_title{
+	width:auto;
+}
+
+.bunrui2_box{
+	float: none;
+	width: auto;
+	margin: 0;
+}
+
+.list_ccc ul{
+	padding: 0 !important;
+}
+.lifenamewrap{
+	background: none;
+	border-bottom: 1px solid #cccccc;
+}
+#main_body .lifenamewrap h3{
+	background: none;
+}

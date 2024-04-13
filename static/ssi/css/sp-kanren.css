@@ -1,0 +1,166 @@
+@charset "utf-8";
+#sidebar2{
+	font-size:90%;
+}
+
+.sidebar2_box2{
+	border:1px solid #cccccc;
+	text-align:left;
+	border-left:none;
+	border-right:none;
+}
+
+#sidebar2 .menu_list_c{
+	margin:0px;
+	padding:0px;
+	width:auto;
+	border:none;
+}
+
+#sidebar2 .soshiki_back h2, #in_sidebar2 .soshiki_back h2{
+	font-size:120%;
+}
+
+.sidebar2_back{
+	background-repeat:repeat-x;
+}
+
+#sidebar2 .menu_list_c li{
+	border:none;
+	border-bottom:1px solid #cccccc;
+	list-style-image:none;
+}
+#sidebar2 .menu_list_c li:first-child{
+}
+
+#sidebar2 .menu_list_c ul, #in_sidebar2 .menu_list_c ul{
+	padding:0px;
+}
+
+#sidebar2 .menu_list_c li, #in_sidebar2 .menu_list_c li{
+	border-bottom:1px solid #cccccc;
+	list-style-image:none;
+	background-position:4px center;
+	background: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+#sidebar2 .sidebar2_box{
+	width:100%;
+	background:none;
+}
+
+#sidebar2 h3, #in_sidebar2 h3{
+	margin:0px;
+	padding:12px;
+	border-left:none;
+	border-right:none;
+	background:#F4F4E8;
+}
+
+#sidebar2 h3 a, #in_sidebar2 h3 a{
+	display:block;
+}
+
+#sidebar2 .kanren_back h2, #in_sidebar2 .kanren_back h2{
+	width:auto;
+	height: auto;
+	padding: 12px;
+	text-indent: 0;
+}
+#sidebar2 .sidebar1_box{
+	background:none;
+	width:auto;
+	border:none;
+}
+
+.navigation_50on{
+	padding:0px;
+}
+
+#sidebar2 .navigation_50on li{
+	display:block;
+	border-left:none;
+	left:0px;
+	padding-left:18px;
+}
+
+#sidebar2 .kanren_back, #sidebar2 .renraku_back, #sidebar2 .gaikan_back, #sidebar2 .gyomu_back, #sidebar2 .links_back, #sidebar2 .tizu_back, #sidebar2 .onjun_back{
+	position: relative;
+	width:auto;
+	margin:0px;
+	padding:0px;
+}
+h2.tit_kanren{
+	background: none;
+	background: #fbf4d7;
+	background: -moz-linear-gradient(top,  #fbf4d7 0%, #f5e39c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbf4d7), color-stop(100%,#f5e39c));
+	background: -webkit-linear-gradient(top,  #fbf4d7 0%,#f5e39c 100%);
+	background: -o-linear-gradient(top,  #fbf4d7 0%,#f5e39c 100%);
+	background: -ms-linear-gradient(top,  #fbf4d7 0%,#f5e39c 100%);
+	background: linear-gradient(to bottom,  #fbf4d7 0%,#f5e39c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbf4d7', endColorstr='#f5e39c',GradientType=0 );
+}
+
+#sidebar2 .kanren_contents li{
+	padding: 0px;
+}
+
+#sidebar2 h2.title_kanren{
+	height: auto;
+	background: none #CBE8FC;
+	line-height:1em;
+	text-align: left;
+	text-indent: 0;
+	overflow: visible;
+	padding: 0.75em;
+}
+
+#sidebar2 .title_sidebar_soshiki{
+	background-size: 100% auto;
+}
+#sidebar2 .title_sidebar_soshiki h2{
+	line-height: 40px;
+	font-size: 120%;
+}
+#sidebar2 .sidebar_detail_info{
+	padding: 0px;
+	border: none;
+}
+
+body#life_list1 #sidebar2{
+	width: auto !important;
+	margin-right: 0px !important;
+}
+body#life_list1 #main{
+	margin-right: 0px !important;
+}
+body#life_list1 #main_a{
+	margin-right: 0px !important;
+}
+#sidebar2 #sidebar_kanren_detail{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+#sidebar2 #sidebar_kanren li{
+	margin: 0px;
+	padding: 0px;
+	background: none;
+}
+#sidebar2 .menu_list_c li ul li{
+	padding: 0px;
+}
+#sidebar2 .menu_list_c li ul li:last-child{
+	border-bottom: none;
+}
+
+#sidebar2 #kanren_info{
+	border: none;
+}
+#sidebar2 #kanren_info .kanren_box ul li{
+	padding: 0px;
+	background: none;
+}

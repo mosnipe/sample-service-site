@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+.virtual_tour_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	/* -webkit-box-align: stretch; */
+	-ms-flex-align: stretch;
+	-webkit-box-align: start;
+	align-items: flex-start;
+	margin: 0px 0px 20px;
+}
+
+.virtual_tour_detail {
+	width: calc(50% - 10px);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0px 10px 20px 0px;
+}
+
+.v_t_d_title {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin: 0px 0px 10px;
+	min-height: 60px;
+}
+
+.v_t_d_title img {
+	width: 40px;
+	margin-right: 20px;
+}
+
+.v_t_d_image {
+	width: 200px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.v_t_d_image p {
+	margin: 0px;
+}
+
+.v_t_d_about {
+	width: calc(100% - 200px);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 20px;
+}
+
+.v_t_d_about p {
+	margin: 0px 0px 10px;
+}
+
+#main #main_a #main_body > div.detail_free:first-child img {
+	display: inline-block;
+	vertical-align: middle;
+}
+@media screen and (max-width: 670px) {
+	.virtual_tour_detail {
+		width: auto;
+		margin: 0px 0px 10px;
+	}
+
+	.virtual_tour_wrap {
+		display: block;
+		padding: 10px;
+		width: auto;
+	}
+
+	.v_t_d_title img {
+		margin-right: 10px !important;
+	}
+
+	.v_t_d_image {
+		width: 140px;
+	}
+
+	.v_t_d_image img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.v_t_d_about {
+		width: calc(100% - 140px);
+	}
+
+}

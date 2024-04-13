@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import url("/ssi/css/sp-common.css");
+@import url("/ssi/css/sp-kanren.css");
+@import url("/ssi/css/sp-parts-general.css");
+@import url("/ssi/css/sp-g-navi.css");
+@import url("/ssi/css/sp-layout.css");
+@import url("/ssi/css/sp-parts.css");
+#h1_title,
+#shisetsu_back{
+	width:auto;
+	height:auto;
+	padding:16px;
+	text-shadow:
+			-2px -2px 1px #ffffff,
+			-2px  2px 1px #ffffff,
+			 2px -2px 1px #ffffff,
+			 2px  2px 1px #ffffff,
+			 3px  3px 3px #000000;
+}
+
+#shisetsu_back{
+	font-size:1.3em;
+	font-weight:bold;
+	line-height:1.5em;
+}
+
+#box_list .place{
+	border-left:none;
+	border-right:none;
+}
+
+#sidebar1{
+	float:none;
+	width:100%;
+	margin:0px;
+}
+#sidebar1 .box_guide{
+	width:100%;
+	border-left:0px;
+	border-right:0px;	
+}
+
+.detail_map_mobile{
+	width:100%;
+	overflow:hidden;
+}
+#main_body h2{}
+#main_body .typeb h2, #main_body .typeb h3, #main_body .typeb h4, #main_body .typeb h5, #main_body .typeb h6{
+	margin-right:0px;
+}
+
+#map_canvas_detail{
+	width:auto;
+}
+
+#sidebar1 .box_guide ul{
+	margin:0px;
+}
+
+/* 施設案内 */
+#sidebar1 .box_guide{
+	width:100%;
+	text-align:left;
+}
+
+#sidebar1 .box_guide ul{
+	margin:0px;
+	padding:0px;
+}
+
+#sidebar1 .box_guide li{
+	background:none;
+	border-bottom:1px solid #cccccc;
+	background-position:10px center;
+}
+
+#sidebar1 .box_guide li a{
+	display:block;
+	margin:0px;
+}
+
+#sidebar1 .box_guide h2{
+	height:27px;
+	overflow:hidden;
+	border-bottom:3px solid #cccccc;
+	background: #e6e6e6;
+	background: -moz-linear-gradient(top,  #e6e6e6 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%);
+	background: -o-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top,  #e6e6e6 0%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #e6e6e6 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#ffffff',GradientType=0 );
+
+
+}
+
+#box_list li{
+	display:inline-block;
+	padding:0px;
+}
+#box_list li a{
+	display:inline-block;
+}
+
+#map_canvas{
+	height:350px;
+}
+
+
+#h1_title a{
+	width:auto;
+	height;auto;
+	padding:20px;
+	display:block;
+	color:#000000;
+	text-decoration:none;
+}
+
+#main_body #box_list li{
+	float:none;
+	display:block;
+	margin:0;
+	padding-left:8px;
+	border-bottom:1px solid #cccccc;
+	width:auto;
+}
+
+#main_body #box_list li a{
+	display:block;
+	padding:8px 0px;
+}

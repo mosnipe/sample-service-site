@@ -1,0 +1,240 @@
+@charset "euc-jp";
+
+h2 {
+	clear: both;
+	font-size: 125%;
+	margin-bottom: 0.3em;
+	padding: 0.9em 1em 0.9em 43px;
+	background: url(/img/midashi/h2bg.gif) no-repeat left center #EEEAEA;
+	border-bottom: 2px solid #EE4029;
+}
+
+h3 {
+	clear: both;
+	font-size: 120%;
+	padding: 0.6em 1em 0.6em 43px;
+	background: url(/img/midashi/h3bg.gif) no-repeat left center;
+	border-bottom: 2px solid #17479D;
+}
+
+h4 {
+	clear: both;
+	font-size: 100%;
+	margin: 0px 0px 10px 0px;
+	padding: 0.4em 1em 0.4em 43px;
+	background: url(/img/midashi/h4bg.gif) no-repeat left center;
+	border-bottom: 1px solid #003592;
+}
+
+h5 {
+	clear: both;
+	font-size: 90%;
+	margin: 0px 0px 10px 0px;
+	padding: 0.4em 1em 0.4em 43px;
+	background: url(/img/midashi/h5bg.gif) no-repeat left center;
+}
+
+h6 {
+	clear: both;
+	font-size: 90%;
+	margin: 0px 0px 10px 0px;
+	padding: 0.5em 1em 0.5em 43px;
+	background: transparent;
+}
+
+/*
+
+table {
+	border-color:#C0BFA0;
+	border-collapse:collapse;
+	border-style:solid;
+	border-width:2px;
+	margin:0 0 10px;
+}
+
+th {
+	border-color:#C0BFA0;
+	border-collapse:collapse;
+	background:#F4F5E3;
+	border-style:solid;
+	border-width:1px;
+	padding:0.2em 0.8em 0.2em 0.8em;
+	font-size:88.8%;
+}
+td {
+	border-color:#C0BFA0;
+	border-collapse:collapse;
+	border-style:solid;
+	border-width:1px;
+	padding:0.2em 0.8em 0.2em 0.8em;
+	font-size:88.8%;
+}
+*/
+
+table {
+	border-collapse:collapse;
+}
+
+th {
+	background:#F4F5E3;
+}
+
+div {
+	border:1px solid green;
+	padding:20px;
+}
+
+div.test {
+	background-color:yellow;
+	color:blue;
+	border:1px solid green;
+}
+
+.test2 {
+	background-color:blue;
+	color:blue;
+	border:1px solid green;
+}
+
+#main #detail .test4 {
+	background-color:blue;
+	color:blue;
+	border:1px solid green;
+}
+
+
+#test3 {
+	background-color:pink;
+	color:blue;
+	border:1px solid green;
+	padding:20px;
+}
+
+.section01{
+}
+
+.section02{
+}
+
+.section01 ol ul, .section02 ol ul, .section01 ul ul, .section02 ul ul {
+ list-style-type:disc;
+ margin:0 0 5px 20px;
+}
+.section01 ul.none {
+ list-style:none;
+ margin:0 0 10px 20px;
+ _margin:0 0 10px 15px;
+}
+.section02 ul.none {
+ list-style:none;
+ margin:0 0 10px 35px;
+ _margin:0 0 10px 30px;
+}
+.section01 ul.none ul, .section02 ul.none ul {
+ margin-left:35px;
+}
+.section01 ul ul.none, .section02 ul ul.none {
+ list-style:none;
+}
+.section01 ul.reference, .section02 ul.reference {
+ list-style:none;
+ line-height:1.6em;
+ margin-left:12px;
+}
+
+/* 雛形用 */
+.column_2,
+.column_2_image,
+.column_3_image{
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+.column_free{
+	display: table;
+	width: auto;
+	table-layout: fixed;
+}
+
+.column_image_text{
+	display: table;
+	width: 100%;
+}
+
+.column_box{
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	padding: 10px;
+}
+.column_2 .column_box{
+	text-align: left;
+}
+
+.column_box img{
+	display: inline-block;
+	max-width: 90%;
+	height: auto;
+}
+.column_box.column_text p {
+	text-align: left;
+}
+.column_box.column_image img{
+	width: auto;
+	height: auto;
+	max-width: none;
+}
+.column_box.column_image p{
+	text-align: center;
+}
+
+/* 雛形用ここまで */
+
+/* イベント関連ひな形 */
+
+.event_column_2_box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+}
+
+.event_column_2_box > .event_column_box {
+	width: 48%;
+	margin: 0 1%;
+}
+
+.event_tag_1 {
+	text-align: right;
+}
+
+.event_tag_2 {
+	text-align: left;
+}
+
+div[class^="event_tag"] div{
+	display: inline-block;
+	padding: 7px 10px;
+	margin: 2px;
+	line-height: 1em;
+}
+.event_tag_1 div {
+	background: #db2f15;
+	color: #fff;
+	margin-right: 0;
+}
+
+.event_tag_2 div {
+	background: #91d7e3;
+	margin-left: 0;
+}
+
+/* イベント関連ひな形ここまで */
+
+em {
+	font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Osaka, 'MS PGothic', sans-serif;
+}

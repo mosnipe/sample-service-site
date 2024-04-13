@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url("detail.css");
+
+.book_box {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	clear: both;
+	margin: 0 0 30px 0;
+	width: 33%;
+}
+#main_body #book_wrap .book_box h3 {
+	margin: 0;
+}
+.book_info {
+	display: table;
+	min-height: 94px;
+}
+.book_info > div {
+	display: table-cell;
+	vertical-align: top;
+	padding: 10px 0 0 10px;
+}
+.book_day {
+	margin: 0;
+}
+.book_thumb_img {
+	margin: 0 10px 5px 0;
+	padding: 0;
+}
+.book_thumb_img img {
+	max-height: 94px;
+}
+.book_txt {
+	padding: 3px 0 0 0;
+}
+#box_pager {
+	clear: both;
+	margin: 1em 0;
+}

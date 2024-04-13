@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import url("/ssi/css/layout.css");
+@import url("/ssi/css/g-navi.css");
+@import url("/ssi/css/general.css");
+@import url("/ssi/css/parts-general.css");
+@import url("/ssi/css/parts.css");
+@import url("/ssi/css/parts-detail.css");
+
+/*サブサイトのメイン画像*/
+#mainimg {
+	margin: 0 0 20px 0;
+	background: url(/img/subsite_mainimg_bg.png) repeat left top;
+	padding: 16px;
+}
+#mainimg_a {
+	background: #F8F3D1;
+	border: 1px solid #cccccc;
+}
+#mainimg_img {
+	height: 170px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/*左メニューを強制的に変更*/
+#sidebar1 {
+	width: 320px;
+	margin-right: -320px;
+	background: #FFFFFF !important;
+	border: 0 !important;
+}
+.sidebar1_b {
+	width: auto;
+	font-weight: bold;
+	margin: 0;
+	padding: 19px;
+	background: url(/img/subsite_menu_bg.png) no-repeat right top #CCEBF5;
+	border-bottom: 1px solid #0099CC;
+	font-size: 125%;
+}
+.sidebar1_b a:link {
+	text-decoration: underline !important;
+	color: #000000 !important;
+}
+.sidebar1_b a:hover {
+	text-decoration: none !important;
+	color: #000000 !important;
+}
+
+/* サブサイト用左メニュー */
+.subsite_menu {
+	margin-bottom: 15px;
+	border: 1px solid #CCCCCC;
+}
+.sidebar_border {
+	/*border: 1px solid #CCCCCC;*/
+	margin: 0 0 10px 0;
+}
+.menu_list_cb {
+/*	width: 200px;*/
+	margin: 0;
+	padding: 0 6px 6px 4px;
+}
+.menu_list_cb ul {
+	margin: 5px 0 0 22px;
+	padding: 1px;
+	text-align: left;
+}
+.menu_list_cb li {
+	margin: 0.8em 0;
+	list-style-type: none;
+	list-style-image: url(/img/icon_triangle_blue.png);
+	list-style-position: outside;
+}
+.menu_list_cb p {
+	display: block;
+	background-image: url(/img/icon_migi2.gif);
+	background-repeat: no-repeat;
+	background-position: 8px 40%;
+}
+.menu_list_cb p a {
+	margin-left: 20px;
+}
+#sidebar1 hr {
+	border: 1px dashed #BEBEB0;
+	padding: 4px 10px 4px 4px;
+}
+
+/* サブサイト用各部品 */
+#site_name {
+	width: 100%;
+	font-size: 140%;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0 0 15px 15px;
+	padding: 15px 0 0 0;
+}
+#site_name a {
+	color: #000000;
+	text-decoration: none;
+}
+#site_name h1 {
+	font-size: 100%;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+.site_free {
+	clear: both;
+	width: 100%;
+	margin: 0;
+}
+
+/* サブサイト用フッタ */
+#site_footer {
+	clear: both;
+	width: auto;
+	font-size: 90%;
+	text-align: left;
+	margin: 12px 0 0 0;
+	padding: 12px;
+	background-color: #F1F1F1;
+}

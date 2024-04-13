@@ -1,0 +1,221 @@
+@charset "utf-8";
+/*グローバル*/
+/*タブここから*/
+#top_search {
+	clear: both;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #EEEAEA;
+}
+#top_search_a {
+	position: relative;
+	display: table;
+	clear: both;
+	width: 1080px;
+	height: 110px;
+	margin: 0px auto;
+	padding: 0px;
+	list-style: none;
+	z-index: 110;
+}
+#top_search_a ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#top_search_a ul li {
+	position: relative;
+	display: table-cell;
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	text-align: center;
+	border-right: 1px solid #CCCCCC;
+}
+#top_search_a ul li a {
+	display: table-cell;
+	width: 154px;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: transparent;
+	text-decoration: none;
+}
+#top_search_a ul li:first-child{
+	/*background: none;*/
+	border-left: 1px solid #CCCCCC;
+}
+
+#top_search_a ul li span.hide {
+	display:none;
+}
+#top_search_a ul li ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 308px;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	/*background-color: #EEEAEA;*/
+	z-index: 9999;
+	list-style: none;
+}
+	
+#top_search_a ul li ul li {
+	overflow: hidden;
+	display: block;
+	width: 308px;
+	height: 0px;
+	border: none;
+	transition: .5s;
+	opacity: 0;
+}
+#top_search_a ul li ul li:first-child {
+	border-left: none;
+}
+#top_search_a ul li ul li a {
+	display: block;
+	width: auto;
+	padding: 13px 15px;
+	text-align: left;
+	vertical-align: middle;
+	color: #333333;
+	font-weight: bold;
+	background-image: none !important;
+	background-color: #EEEAEA;
+}
+#top_search_a ul li ul li ul {
+	top: -1px;
+	left: 100%;
+}
+
+#top_search_a ul li:hover img {
+	visibility: hidden;
+}
+
+#top_search_a > ul > li:hover > a,
+#top_search_a > ul > li:hover li:hover > a {
+	background-color: #17479D;
+	color:#FFFFFF;
+}
+
+#top_search_a ul li#gnav0:hover > a { background-image: url(/img/nav/gnav0_hover.png); }
+#top_search_a ul li#gnav1:hover > a { background-image: url(/img/nav/gnav1_hover.png); }
+#top_search_a ul li#gnav2:hover > a { background-image: url(/img/nav/gnav2_hover.png); }
+#top_search_a ul li#gnav3:hover > a { background-image: url(/img/nav/gnav3_hover.png); }
+#top_search_a ul li#gnav4:hover > a { background-image: url(/img/nav/gnav4_hover.png); }
+#top_search_a ul li#gnav5:hover > a { background-image: url(/img/nav/gnav5_hover.png); }
+#top_search_a ul li#gnav6:hover > a { background-image: url(/img/nav/gnav6_hover.png); }
+
+#top_search_a ul li:hover > ul > li {
+	overflow: visible;
+	height: 46px;
+	line-height: 1.4em;
+	border-top: 1px solid #869fea;
+	opacity: 1;
+}
+/*20210531 thin 追加*/
+#top_search_a ul li > ul.open > li {
+	overflow: visible;
+	height: 46px;
+	line-height: 1.4em;
+	border-top: 1px solid #869fea;
+	opacity: 1;
+}
+
+/*******/
+
+#top_search_a ul li#gnav4 ul,
+#top_search_a ul li#gnav5 ul,
+#top_search_a ul li#gnav6 ul {
+	left: auto;
+	right: 0;
+}
+#top_search_a ul li#gnav4 ul li ul,
+#top_search_a ul li#gnav5 ul li ul,
+#top_search_a ul li#gnav6 ul li ul {
+	right: 100%;
+}
+
+#top_search_a ul li ul li ul:before {
+  position: absolute;
+  content: "";
+  top: 19px;
+  left: -20px;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-left-color: #000000;
+}
+#top_search_a ul li#gnav4 ul li ul:before,
+#top_search_a ul li#gnav5 ul li ul:before,
+#top_search_a ul li#gnav6 ul li ul:before {
+  position: absolute;
+  content: "";
+  top: 19px;
+  left: 200%;
+  margin-left: -25px;
+  border: 5px solid transparent;
+  border-right-color: #000000;
+}
+
+
+/* タブここまで */
+
+/* Googleカスタム検索ここから */
+
+/* use*/
+#top_search_keyword{
+	position: static;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+#cse-search-box {
+	margin:0px;
+	padding:0px;
+}
+#cse_search_input {
+	float: left;
+}
+#cse_filetype {
+	float: left;
+	margin: 3px 0px 0px 5px;
+}
+
+/* Googleタイトル */
+.search_tit{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 10px;
+}
+/* 検索ボタン */
+#submit{
+	margin:0px;
+	padding:0px;
+	vertical-align: top;
+}
+
+/*検索BOX*/
+#tmp_query{
+	width: 156px;
+	height: 23px;
+	margin: 0px;
+	padding: 0px 10px;
+	border: none !important;
+	background-color: #EEEAE9 !important
+}
+*html body #tmp_query{
+	margin:0px;
+	height: 28px;
+}
+
+.form_margin {
+	margin:0px;
+	padding:0px;
+}
+/* Googleカスタム検索ここまで */
+
+/* ドロップダウンメニューここから  */
+/* ドロップダウンメニューここまで  */

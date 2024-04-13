@@ -1,0 +1,17 @@
+@charset "utf-8";
+#sidebar1{
+	width:auto;
+	margin-right:0px !important;
+	float:none;
+}
+#main{
+	margin-right:0px !important;
+}
+#main_a{
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+#sidebar2{
+	width:100% !important;
+	margin-right:0px !important;
+}

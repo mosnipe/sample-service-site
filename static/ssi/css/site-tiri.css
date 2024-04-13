@@ -1,0 +1,268 @@
+@charset "utf-8";
+@import url("site.css");
+
+/* グローバルナビ */
+#top_search {
+	clear: both;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+}
+#top_search_a {
+	position: relative;
+	display: table;
+	clear: both;
+	width: 1080px;
+	height: auto;
+	margin: 0px auto;
+	padding: 0px;
+	list-style: none;
+	z-index: 110;
+}
+#top_search_a ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border-left: 1px solid #085aa4;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+}
+#top_search_a ul li {
+	position: relative;
+	display: block;
+	width: calc(100% / 6);
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	border: none;
+	border-right: 1px solid #085aa4;
+}
+#top_search_a ul li:first-child {
+	border-left: none;
+}
+#top_search_a ul li:hover{
+	background: #085aa4;
+}
+#top_search_a ul li a {
+	display: block;
+	width: auto;
+	height: 4em;
+	padding: 22px 0px 0px 0px;
+	background: none;
+	color: #17479d;
+	font-size: 120%;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+}
+#top_search_a ul li:hover a {
+	background: none !important;
+}
+#top_search_a ul li a span {
+	display: block;
+	font-size: 70%;
+}
+
+#top_search_a ul li a.current:after {
+	content:'';
+	display: block;
+	width: 100%;
+	border-bottom: 5px solid #e83217;
+	position: absolute;
+	left: 0;
+	bottom: -8px;
+}
+
+/* レイアウト */
+#main {
+	float: none;
+}
+#main_a {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+/* ロゴ */
+#mainimg_tiri {
+	width: 1080px;
+	margin: 20px 0px 40px;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+}
+.tiri_ttl > * {
+	display: block;
+}
+.tiri_ttl > .tiri_ttl_logo {
+	margin: 0px;
+}
+.tiri_nav {
+	text-align: right;
+}
+.tiri_nav > a {
+	display: inline-block;
+	width: 12em;
+	margin: 0.2em 0;
+	padding: 10px 0px;
+	color: #17479d !important;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline !important;
+	border-right: 1px solid #085aa4;
+}
+.tiri_nav > a:first-child {
+	width: 12.4em;
+	border-left: 1px solid #085aa4;
+}
+
+/* 新着情報 */
+.list_type_a_list {
+	clear: both;
+	text-align: left;
+	border: none;
+	margin: -30px 0px 0px;
+	padding: 0px;
+}
+.list_type_a_title {
+	display: block;
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	clip: rect(0,0,0,0);
+	overflow: hidden;
+}
+.list_ccc {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+}
+.list_ccc ul {
+	text-align: left;
+	margin: 0px !important;
+	padding: 0px !important;
+	width: 100%;
+	height: 100%;
+	list-style-position: outside;
+}
+.list_ccc li {
+	clear: both;
+	margin: 0px !important;
+	padding: 0px;
+	list-style-type: none;
+	list-style-position: outside;
+}
+.list_type_a_list ul, .site_tiri_list1 .list_ccc ul {
+	display: -webkit-box;
+	display: flex;
+	flex-wrap: wrap;
+}
+.list_type_a_list li, .site_tiri_list1 .list_ccc li {
+	width: 330px;
+	margin: 30px 0 0 45px !important;
+}
+.list_type_a_list li:nth-child(3n + 1),
+.site_tiri_list1 .list_ccc li:nth-child(3n + 1) {
+	margin-left: 0 !important;
+}
+.list_pack {
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+	width: 100%;
+	border-bottom: none;
+}
+div.list_pack > a {
+	display: block;
+}
+div.list_pack .span_d {
+	display: block;
+	width: 330px;
+	height: 220px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+div.list_pack .span_d img {
+	width: auto;
+	height: auto;
+	min-width: 330px;
+	min-height: 220px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+div.list_pack .span_e {
+	display: block;
+	width: auto;
+	padding: 10px;
+}
+.list_type_a_list p.no_data {
+	margin: 20px 0px;
+}
+.link_box{
+	padding: 30px 0px 0px;
+	text-align: left;
+}
+
+/* アンケート */
+.tiri_questionnaire {
+	margin: 20px 0;
+	text-align: right;
+}
+.tiri_questionnaire img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+/* 本文 */
+.site_tiri_detail #main_body {
+	line-height: 175%;
+}
+
+/* 見出し */
+#main #main_a h1 {
+	margin: 0px;
+	padding: 0.6em 1em 0.6em 10px;
+	font-size: 200%;
+	font-weight: bold;
+	line-height: 1.4em;
+	background: none;
+	color: inherit;
+	border: none;
+	border-top: 4px double #085aa4;
+	border-bottom: 4px double #085aa4;
+}
+#main_body h2 {
+	clear: both;
+	font-size: 150%;
+	margin-bottom: 0.3em;
+	padding: 0.9em 1em 0.9em 10px;
+	background: none;
+	border: none;
+	border-bottom: 3px dotted #085aa4;
+	color: #085aa4;
+}
+
+/* PDF,WMPリンク */
+.pdf_download, .wmplayer_download {
+	width: auto;
+}
+.tenpu_txt {
+	width: auto;
+}
+
+/* フッタ */
+#footer {
+	margin-top: 60px;
+}

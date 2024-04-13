@@ -1,0 +1,313 @@
+@charset "utf-8";
+#main_body{
+	margin:0px auto;
+	/*overflow: auto;*/
+}
+
+#main_body > *{
+	line-height: 1.5em;
+	/*padding: 0.5em;*/
+	padding: 0px;
+}
+
+#main #main_a #main_body div.detail_free {
+	margin: 0px;
+	width: auto;
+}
+#main #main_a #main_body div.detail_free p{
+}
+#main #main_a #main_body div.detail_free img,#main #main_a #main_body > img{
+	margin: 0px;
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+#main #main_a #main_body div.detail_free table , #main #main_a #main_body > table{
+	float: none;
+	clear: both;
+	width: auto !important;
+}
+#main #main_a #main_body div.detail_free td img{
+	max-width: 100%;
+	width: auto;
+	height:auto;
+}
+#main #main_a #main_body div.detail_free ul, #main #main_a #main_body div.detail_free ol{
+	padding-top:0px;
+	padding-left:40px;
+	margin-left:0px;
+}
+
+#main #main_a #main_body div[class*="detail_"]{
+	padding: 0px 8px;
+	width: auto;
+	overflow: auto;
+}
+#main #main_a #main_body div[class*="detail_"] img{
+	max-width: 100%;
+	height: auto !important;
+	display: block;
+	float: none !important;
+}
+
+#main #main_a #main_body div[class*="detail_"] h2, #main #main_a #main_body div[class*="detail_"] h3, #main #main_a #main_body div[class*="detail_"] h4, #main #main_a #main_body div[class*="detail_"] h5, #main #main_a #main_body div[class*="detail_"] h6{
+}
+#main #main_a #main_body div[class*="detail_"] dt{
+	font-weight: bold;
+}
+#main #main_a #main_body > div.text_r + div h2:first-child{
+	margin: 0px;
+}
+#main_body > div:nth-child(3) > h2:nth-child(1){
+	margin-top: 0px;
+}
+#main #main_a #main_body > div[class*="detail_"]:nth-child(2) > h2:first-child{
+	margin-top: 0px;
+}
+#section_footer {
+	margin: 0px;
+	border-left: none;
+	border-right: none;
+}
+#section_footer_title {
+	height: auto;
+	font-weight:bold;
+}
+#section_footer_title h2{
+	width: auto;
+}
+
+#section_footer_info{
+	padding:0px 10px 10px;
+}
+
+#section_footer_info .list_email{
+	text-indent:0px;
+	margin:0px;
+	display:block;
+}
+
+/*
+ iPhone等の場合、端末側で電話番号もaタグに変換されるため、メールアドレスのみブロック要素に対応。
+*/
+#section_footer_info a[href*="@"]{
+	display:block;
+	text-align:center;
+}
+
+#facebook_area {
+	margin: 10px 10px !important;
+	border: 1px solid #999999;
+}
+.fb-like.fb_edge_widget_with_comment.fb_iframe_widget{
+	width: 100% !important;
+}
+.fb-like.fb_edge_widget_with_comment.fb_iframe_widget > span {
+	width: 100% !important;
+}
+.connect_confirmation_cell connect_confirmation_cell_no_like {
+	top:0px !important;
+}
+
+#facebook_area p{
+	background-color: #cccccc !important;
+	font-weight: bold;
+}
+
+#facebook_area .button iframe {
+	width: 100% !important;
+}
+
+#sidebar2 .tit_thema {
+	width: auto !important;
+}
+
+#main #main_a #main_body div.detail_map iframe {
+	width: 100%;
+	height: 320px;
+}
+
+#section_footer_name{
+	padding:0px 10px;
+}
+
+#main_body blockquote{
+	margin:0px 10px;	
+}
+
+#main #main_a #main_body  h2 img[alt="ログ取得"]{
+	width:1px;
+	height:1px;
+}
+
+#section_footer_title2{
+	padding:10px 0px 10px 25px;
+}
+
+#main_body > div.system_box{
+	margin-top: 2em;
+}
+#main_body > div.system_box h2{
+	padding: 9px;
+	padding-left: 30px;
+}
+.hyouka_box{
+	padding: 12px;
+	padding-top: 0px;
+	font-size: 1em;
+}
+.hyouka_box div{
+	margin: 8px 0px;
+}
+.hyouka_box .hyouka_area_title{
+	font-weight: bold;
+	border-top: 1px dotted #ccc;
+}
+.hyouka_box span[class*="ques"]{
+	display:block;
+	float:none;
+	width:auto;
+	padding-left:1em;
+}
+#hyouka_area_box .hyouka_area_ans{
+	margin: 0px;
+}
+#hyouka_area_box .hyouka_area_ans span{
+	display: block;
+	margin: 0px;
+	padding: 4px;
+}
+.system_box .ques0{
+	float:none;
+	width:auto;
+	font-weight: bold;
+}
+.hyouka_area_ans{
+	overflow:visible;
+	margin-top:0.5em;
+	margin-bottom: 1.5em;
+}
+
+#main_body > div.system_box .hyouka_box input[type="submit"]{
+	padding: 12px;
+	width: 160px;
+}
+
+#main_body > div.system_box .hyouka_box div:last-child{
+	text-align: center;
+}
+
+
+div a[href*="/attachment/"]{
+	display: block;
+	padding: 12px;
+	padding-left: 30px;
+	background: url(/img/icon_s.gif) no-repeat 8px center;
+}
+div a[href$=".pdf"]{
+	display: block;
+	padding: 12px;
+	padding-left: 30px;
+	background: url(/img/icon_p.gif) no-repeat 8px center;
+}
+div#cse a[href$=".pdf"]{
+	padding: 0px;
+	background: none;
+	display: inline;
+}
+div a[href$=".xls"],  a[href$=".xlsx"]{
+	display: block;
+	padding: 12px;
+	padding-left: 30px;
+	background: url(/img/icon_x.gif) no-repeat 8px center;
+}
+div a[href$=".doc"],  a[href$=".docx"]{
+	display: block;
+	padding: 12px;
+	padding-left: 30px;
+	background: url(/img/icon_w.gif) no-repeat 8px center;
+}
+
+#map_canvas_detail{
+	height: 320px;
+}
+
+.sp-clickablemap{
+	display: block;
+	text-align: left;
+}
+.sp-clickablemap a{
+	display: inline-block;
+	padding: 8px;
+	text-align: left;
+}
+
+div#detail_date {
+	float: none;
+	width: auto;
+	height: auto;
+	margin: 10px 0px;
+	text-align: right;
+}
+
+#detail_date #sns {
+	float: none;
+	display: table;
+	width: 100%; 
+	overflow: visible;
+	margin: 0px;
+}
+
+#detail_date .text_r {
+	float: none;
+}
+
+#detail_date .sns_tw {
+	float: none;
+	width: auto;
+	display: table-cell;
+}
+
+#detail_date .sns_fb {
+	float: none;
+	display: table-cell;
+}
+.soshiki_kakuka_map{
+	width: 100%;
+	overflow: hidden;
+}
+
+/* 雛形ページレスポンシブ対応 */
+.column_2,
+.column_2_image,
+.column_3_image{
+	display: block;
+	width: auto;
+}
+.column_free{
+	display: block;
+	width: auto;
+}
+
+.column_image_text{
+	display: block;
+	width: auto;
+}
+
+.column_box{
+	display: block;
+	text-align: left;
+}
+.column_2 .column_box{
+}
+
+.column_box img{
+	display: inline-block;
+	max-width: 90%;
+	height: auto !important;
+}
+.column_box.column_text p {}
+.column_box.column_image img{}
+.column_box.column_image p{}
+
+/* 雛形ページレスポンシブ対応ここまで */

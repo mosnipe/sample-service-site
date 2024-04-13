@@ -1,0 +1,9 @@
+@charset "utf-8";
+body {
+	background:#FFFFFF;
+	color:#000000;
+}
+*html body{
+	zoom:80%;
+	font-size:120% !important;
+}

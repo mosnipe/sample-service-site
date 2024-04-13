@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+#banner_footer_0{
+	width: auto;
+}
+#banner_footer_0 h2{
+	padding: 12px;
+}
+#banner_footer_0 .banner_c{
+	width: auto;
+	text-align: center;
+}
+#banner_footer_0 .banner_c li{
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	margin: 5px;
+	padding: 0px;
+}
+
+#banner_footer_box{
+	position: static;
+	display: block;
+	float: none;
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner_footer1{
+	width: auto;
+	float:none;
+	margin: 0px;
+}
+
+.jigyo_banner{
+	width:100%;
+	border-left:none;
+	border-right:0px;
+}
+#banner_footer2{
+	position: relative;
+	display: block;
+	float: none;
+	width: auto;
+	margin: 0px;
+}
+#banner_footer2 > img{
+	position: absolute;
+	left: 10px;
+}
+#banner_footer2 > p{
+	position: absolute;
+	right: 10px;
+	top: 14px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner_footer2 h2{
+	background: none;
+	width: auto;
+	height: auto;
+	margin: 0px;
+	padding: 12px;
+	/*margin-right: 150px;*/
+	/*line-height: 30px;*/
+	color: #ffffff;
+	font-weight: normal;
+	text-align: left;
+
+}
+#banner_footer2 p{
+}
+#banner_footer3{
+	position: static;
+	display: block;
+	width: auto;
+	height: auto;
+	float: none;
+	margin: 0px;
+	background: none transparent;
+}
+#banner_footer3 .banner_c{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+	float: none;
+	width: auto;
+	height: auto;
+	margin: 0px;
+}
+#banner_footer3 .banner_c li{
+	float: none;
+	margin: 4px;
+	width: 150px;
+	height: 50px;
+}
+#banner_footer3 .banner_c li img{
+}
+
+.banner_list_tate_right{
+	width:auto;
+}
+
+#sidebar1 .banner_list_tate, #sidebar2 .banner_list_tate{
+	width:auto;
+}
+#sidebar1 .banner_list_tate ul, #sidebar2 .banner_list_tate ul{
+	text-align:center;
+	border:none;
+}
+
+#sidebar1 .banner_list_tate li a, #sidebar2 .banner_list_tate li a{
+	padding:0px;
+	background:none;
+	overflow:visible;
+}
+
+ul.banner_c li {
+	display: inline-block;
+	float: none;
+	/*width: 140px;*/
+	height: auto;
+	margin: 2px;
+}
+
+ul.banner_c li img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul.banner_c {
+	margin: 0px;
+	padding: 0px;
+	overflow: visible;
+ 	width: auto;
+	float: none;
+	text-align: center;   
+}
+
+#koukoku_side{
+	float: none;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#jigyou_pr{
+	float: none;
+	width: auto;
+	margin: 0px;
+}
+#jigyou_pr_banner{
+	position: static;
+	width: auto;
+	height: auto;
+}
+#jigyou_pr_banner ul{
+	height: auto;
+	padding-bottom: 7px;
+	text-align: left;
+	width: 300px;
+	margin: 0 auto;
+}
+#jigyou_pr_banner li{
+	width: 140px;
+	height: 50px;
+	overflow: visible;
+}
+#jigyou_pr_banner li img{
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+}
+#pager {
+	display: none;
+}
+#hukkou_shien {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#hukkou_shien li {
+	margin: 0px;
+	padding: 5px;
+}
+#hukkou_shien img {
+	width: 100%;
+	height: auto;
+}
+#pr_control button {
+	display: none;
+}

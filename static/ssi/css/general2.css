@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* sidebar1なしsidebar2なし */
+
+#main {
+	margin-top: 0;
+	margin-right: 0;
+}
+#main_a {
+	margin: 0;
+	padding: 0;
+}

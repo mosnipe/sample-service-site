@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import url("/ssi/css/sp-common.css");
+@import url("/ssi/css/sp-layout.css");
+@import url("/ssi/css/sp-parts-general.css");
+@import url("/ssi/css/sp-general.css");
+@import url("/ssi/css/sp-parts.css");
+@import url("/ssi/css/sp-parts-detail.css");
+@import url("/ssi/css/sp-g-navi.css");
+
+
+/*サブサイトのメイン画像*/
+#mainimg, #mainimg_eco {
+	margin:0px 0px 10px 0px;
+}
+#mainimg_a {
+	background-position: right top;
+	background: #eeeeee;
+}
+#mainimg_img {
+	background-image: none !important;
+	height: auto;
+}
+
+/* サブサイト用左メニュー */
+.menu_list_cb{
+	width:auto;
+	padding:0px;
+}
+
+.menu_list_cb ul{
+	padding:0px;
+}
+.menu_list_cb li{
+	list-style-position:inside;
+	border-bottom:1px solid #cccccc;
+	padding:0px;
+	list-style: none;
+}
+
+..menu_list_cb li strong{
+	display: block;
+	padding: 12px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.menu_list_cb li:last-child{
+	border-bottom:none;
+}
+
+.menu_list_cb li a{
+	display: block;
+	padding: 0px;
+}
+
+/* サブサイト用各部品 */
+#site_name {
+	font-size:150%;
+	padding:10px;
+	margin: 0px;
+	width:auto;
+	line-height:1.3em;
+}
+
+#site_name a{
+	text-shadow:-1px -1px 0px rgba(255,255,255,0.5),
+				0px 1px 0px rgba(255,255,255,0.5),
+				1px 0px 0px rgba(255,255,255,0.5),
+				1px 1px 0px rgba(255,255,255,0.5);
+}
+
+#main #main_a .list_c ul{
+	line-height:2.0;
+}
+
+#main #main_a .list_c li{
+	border-bottom:1px solid #cccccc;
+}
+
+.list_ccc .span_b{
+	border: none;
+	width:auto;
+	padding-right:5%;
+	float:none;
+}
+
+/* サイドバー2を幅180pxに */
+
+#sidebar2 .tit_thema {
+	width:auto;
+	float: none;
+	margin-right:0px;
+}
+#sidebar2 .menu_list_e2 li {
+	float: none;
+}
+
+#sidebar1{
+	float:none;
+	clear: both;
+	width:auto;
+	margin-top:30px;
+	padding-bottom:0px;
+	margin:0px;
+}
+
+.sidebar_border{
+	background-image:none;
+	border:none;
+	margin:0px;
+}
+#main .text_r{}
+#site_footer{
+	width:auto;
+	margin: 0px;
+	border:1px solid #4875ba;
+}
+
+.list_pack .span_d img{
+	width:75px;
+}
+
+.thumb{
+	border:none;
+	overflow:visible;
+	margin:0px;
+	padding:0px;
+}
+
+.sidebar1_b{
+	position: relative;
+	text-align:left;
+	padding:12px;
+	/*padding-left: 30px;*/
+	width:auto;
+	/*background-size: 100% auto;*/
+	border-width: 0px;
+
+}
+.sidebar1_b a{
+	text-decoration: underline !important;
+}
+
+.list_thumb img{
+	width:80px !important;
+}
+
+.list_ccc .span_e a{
+}
+.list_ccc .span_b{
+	/*display: none;*/
+}
+
+.homepage#link_to_toppage{
+	margin: 0px;
+}
+
+.free_box, .free_box2{
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu_list_cb .text_d{
+	background-repeat:no-repeat;
+	background-position:left 50%;
+	background:none;
+	margin:0px;
+	padding:12px;
+	text-align:center;
+}

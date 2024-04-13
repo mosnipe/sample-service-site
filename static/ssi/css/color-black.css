@@ -1,0 +1,206 @@
+@charset "utf-8";
+@import url("color-common.css");
+
+#search_trend_word a {
+	color: #ffff00;
+}
+
+/* トップカレンダー */
+.cal_sun {
+	background-color: #960a0a !important;
+}
+.cal_sat {
+	background-color: #141482 !important;
+}
+.cal_mon, .cal_tue, .cal_wed, .cal_thu, .cal_fri {
+	background-color: #222222 !important;
+}
+
+/* 共通部分 */
+html, body {
+	color: #FFFFFF !important;
+	background-color: #000000 !important;
+}
+#mymainback, #main, #main_a, #main_body, .pankuzu, #honbuns {
+	background-color: #000000 !important;
+}
+a:link,
+.sidebar1_b a:link{
+	text-decoration: underline;
+	color: #FFFF00 !important;
+}
+a:visited {
+	text-decoration: underline;
+	color: #FFFFCA !important;
+}
+a:active {
+	text-decoration: underline;
+	color: #CC0000 !important;
+}
+a:hover,
+.sidebar1_b a:hover{
+	text-decoration: underline;
+	color: #FFFFFF !important;
+}
+#main h2, #main h3, #main h4, #main h5, #main h6 {
+	background-color: #333333 !important;
+	background-image: none !important;
+	color: #FFFFFF !important;
+}
+#main h1 {
+	background-color: #333333 !important;
+	color: #FFFFFF !important;
+}
+.calendar_style5 {
+	background-color: #960a0a !important;
+}
+.calendar_style10 {
+	background-color: #141482 !important;
+}
+#sidebar1_box1_h2, .sidebar1_box2_h2 {
+	background-image: none !important;
+	background-color: #333333 !important;
+}
+#sidebar2 h2, #sidebar2 h3 {
+	background-image: none !important;
+	background-color: #333333 !important;
+}
+#footer {
+	background-color: #000000 !important;
+	background-image: none !important;
+}
+#footer #auter_copyright {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+#banner_footer2 {
+	background-color: #181818 !important;
+}
+#kinkyu .span_a {
+	color: #FFFFFF !important;
+}
+
+/* 検索 */
+#tmp_query:focus {
+	color: #FFFFFF !important;
+}
+
+/* グローバルナビ（アコーディオン） */
+#top_search_a ul li ul {
+	background-color: #333333 !important;
+}
+#top_search_a ul li ul li a{
+	background-color: #333333;
+}
+#top_search_a ul li#gnav4 ul li ul:before, #top_search_a ul li#gnav5 ul li ul:before, #top_search_a ul li#gnav6 ul li ul:before {
+	border-right-color: #FFFFFF;
+}
+#top_search_a ul li ul li ul:before {
+	border-left-color: #FFFFFF;
+}
+
+/* フッター */
+.footer_link_box {
+	border-right-color: #FFFFFF !important;
+}
+.footer_link_box:first-child {
+	border-left-color: #FFFFFF !important;
+}
+.footer_navi li {
+	border-left-color: #FFFFFF !important;
+}
+
+/* トップへ戻る */
+#back_or_pagetop {
+	background-color: #333333 !important;
+}
+  
+
+/* サブサイトのフッタ用 */
+#site_footer {
+	background-color: #181818 !important;
+}
+
+/* 最終ページお問い合わせタイトル */
+#section_footer_title {
+	background: #333333 !important;
+}
+
+/* 観光トップのサイドメニュー */
+#sidebar1kan {
+	background: #333333 !important;
+}
+
+/* 緊急ページ */
+#emer_info {
+	background-color: #333333 !important;
+	background-image: none !important;
+}
+
+/* アクセシビリティチェッカー */
+.errrange a:link {
+	text-decoration: underline;
+	color: #0033CC !important;
+}
+.errrange a:visited {
+	text-decoration: underline;
+	color: #551A8B !important;
+}
+.errrange a:active {
+	text-decoration: underline;
+	color: #CC0000 !important;
+}
+.errrange a:hover {
+	text-decoration: underline;
+	color: #FF4500 !important;
+}
+.list_ccc .span_a {
+	color: #ffffff!important;
+}
+.sidebar1_b {
+	background: #333333;
+}
+
+
+#context_category01,
+#context_category02{
+    background:#000000;
+}
+#context_category01 *,
+#context_category02 *{
+    background:transparent !important;
+}
+
+#tmp_query {
+	background-color: #333 !important;
+	border: 1px solid #888 !important;
+	color: #fff;
+}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page,
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+	color: #ff0 !important;
+}
+form[action^="questionnaire"] select, form[action^="questionnaire"] select option{
+	background: #000;
+	color: #fff;
+}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+	background: #333 !important;
+	border: none !important;
+	color: inherit !important;
+}
+
+.gsc-input-box {
+	background: #333 !important;
+	border-color: #666 !important;
+}
+
+.gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus {
+	background: #333 !important;
+}
+
+/* サブサイト「TIRI NEWS」 */
+.site_tiri #top_search_a ul li {
+	background-color: rgba(255,255,255,0.2) !important;
+}

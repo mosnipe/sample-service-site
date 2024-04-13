@@ -1,0 +1,26 @@
+@charset "utf-8";
+a:link {
+	text-decoration: underline;
+	color: #0033CC;
+}
+a:visited {
+	text-decoration: underline;
+	color: #551A8B;
+}
+
+a:active {
+	text-decoration: underline;
+	color: #CC0000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FF4500;
+}
+
+#footer a:link,#footer a:visited {
+	color: #FFFFFF;
+}
+#footer a:hover {
+	color: #FF4500;
+}

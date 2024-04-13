@@ -1,0 +1,139 @@
+@charset "utf-8";
+@import url("detail.css");
+
+
+#main_a {
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+#main_body {
+	background-color: #EEE;
+}
+
+#main_body #machine_facility h2 {
+	display: table-cell;
+	width: 10%;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 15px;
+	background: none;
+	border: none;
+	vertical-align: top;
+	text-align: right;
+	font-size: 1rem;
+}
+
+.selection {
+	display: table-cell;
+	width: 90%;
+	vertical-align: middle;
+}
+
+#machine_facility form > div {
+	display: table;
+	table-layout: fixed;
+	width: 1000px;
+	margin: 0px 40px;
+	padding: 30px 0px;
+	border-bottom: 1px dashed #AAAAAA;
+}
+
+#main #main_a #main_body ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main #main_a #main_body #search_class .selection fieldset > ul {
+	display: inline-block;
+	width: 24%;
+	margin: 0px 0px 25px 0px;
+	padding: 0;
+	vertical-align: top;
+}
+
+#main_body .selection fieldset > ul > li {
+	padding-right: 10px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+#main #main_a #main_body ul ul {
+	margin-left: 29px;
+}
+#main #main_a #main_body ul ul li {
+	padding: 2px 0px;
+}
+#machine_facility #search_keyword h2 {
+	vertical-align: middle;
+}
+
+#machine_facility #search_keyword .selection {
+	width: 47%;
+}
+
+.selection input[type="text"] {
+	width: 320px;
+	height: 27px;
+	vertical-align: top;
+}
+.selection input#search_submit1 {
+	text-indent: -9999em;
+	overflow: hidden;
+}
+#machine_facility #search_keyword .and_or_wrap {
+	display: block;
+	margin-top: 10px;
+}
+.guidance .external_link_text {
+	display: none !important;
+}
+
+#machine_facility #search_keyword span label {
+	margin-right: 70px;
+}
+#machine_facility fieldset {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+.guidance {
+	display: table-cell;
+	width: 43%;
+	vertical-align: middle;
+}
+.guidance li {
+	margin: 15px 0px;
+	padding-left: 90px;
+}
+li#tkf {
+	background: url(/img/logo_tkf.png) no-repeat 15px center;
+}
+li#dhule {
+	background: url(/img/logo_dhule.png) no-repeat left center;
+}
+
+#search_target .selection ul li,
+#search_purpose .selection ul li,
+#search_standard .selection ul li,
+#search_location .selection ul li {
+	display: inline-block;
+	width: 220px;
+	margin-bottom: 15px;
+	padding-right: 0px !important;
+	vertical-align: top;
+}
+
+#search_target .selection ul li:last-child,
+#search_purpose .selection ul li:last-child,
+#search_standard .selection ul li:last-child,
+#search_location .selection ul li:last-child {
+	margin-bottom: 0px;
+}
+input#search_submit2 {
+	display: block;
+	margin: 30px auto;
+	text-indent: -9999em;
+	overflow: hidden;
+}

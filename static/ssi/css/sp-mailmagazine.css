@@ -1,0 +1,45 @@
+@charset "utf-8";
+@import url("/ssi/css/sp-common.css");
+@import url("/ssi/css/sp-layout.css");
+@import url("/ssi/css/sp-parts-general.css");
+@import url("/ssi/css/sp-general2.css");
+@import url("/ssi/css/sp-parts.css");
+@import url("/ssi/css/sp-parts-detail.css");
+@import url("/ssi/css/sp-g-navi.css");
+
+
+#main_body .detail_free table[background*="meinimg_mmg"]{
+	display:block;
+	background-size:cover;
+}
+
+#main #main_a #main_body table[width="100%"]{
+	width:100% !important;
+}
+
+#main_body > form[name="form"] table,
+#main_body > form[name="form"] table td{
+	border:none !important;
+}
+
+#main_body > form[name="form"] table th{
+	display:none;
+}
+
+#main_body > form[name="form"] table tr td{
+	display:block;
+}
+
+#main_body > form[name="form"] table tr td:first-child{
+	background:#C0BFA0;
+	font-weight:bold;
+}
+
+#main_body > form[name="form"] table tr td input[name="txtTitol"],
+#main_body > form[name="form"] table tr td input[name="txtKey1"]{
+	width:95%;
+}
+
+#main_body > form > div[align="right"], #main_body > form > .spover10{
+	text-align:center;
+}

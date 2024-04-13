@@ -1,0 +1,364 @@
+@charset "utf-8";
+
+#container {
+	background-image: none !important;
+}
+
+/*トップ専用*/
+#lettering .lettering_box .lettering_text {
+	background: url(/img/black60.png) repeat left top;
+}
+#tit_news, #tit_important {
+	background-color: transparent !important;
+}
+.list_top_impo {
+	background-color: transparent !important;
+}
+.sidebar1_box2 {
+	background: none !important;
+}
+#nichi_top {
+	background-color: transparent !important;
+}
+dl.pink, dl.blue {
+	background-color: transparent !important;
+}
+#author_info {
+	background: none !important;
+}
+#flash {
+	background-color: transparent !important;
+}
+.main_box_important {
+	background-color: transparent !important;
+}
+#top_kensaku, #sidebar1 .sidebar1_box1 {
+	background: none transparent;
+	border: none;
+}
+#search_trend_word h3 {
+	color: #ffffff;
+}
+#main #main_a #lifestage {
+	background: none transparent;
+}
+#top_jinkou {
+	background-color: transparent;
+}
+#top_jinkou_detail {
+	background: none transparent;
+}
+#jigyou_pr {
+	background: none transparent;
+}
+#top_emergency {
+	background: none transparent;
+}
+#box_emer {
+	background: none transparent;
+}
+#top_tokei {
+	background: none transparent;
+}
+
+/* トップカレンダー */
+#flash_calendar {
+	background-color: transparent !important;
+}
+.cal_sun { }
+.cal_sat { }
+.cal_mon, .cal_tue, .cal_wed, .cal_thu, .cal_fri { }
+
+/* 共通部分 */
+#top_search_a {
+	background: none transparent;
+}
+#banner_footer1 {
+	background: none transparent;
+}
+#main h2, #main h3, #main h4, #main h5, #main h6 {
+	background-image: none !important;
+}
+#main h1 { }
+.calendar_style5 {
+	background-color: #b41e1e !important;
+}
+.calendar_style10 {
+	background-color: #3232ff !important;
+}
+#main #main_a table {
+	background: none transparent;
+}
+table caption {
+	background-color: transparent !important;
+}
+table th {
+	background-color: transparent !important;
+}
+
+/* 個別対応部分 */
+#sidebar1 {
+	background-color: transparent !important;
+}
+#sidebar1 .menu_list_c b {
+	background-image: none;
+}
+#sidebar1_box1_h2, .sidebar1_box2_h2 {
+	background-image: none !important;
+}
+#sidebar2 {
+	background-color: transparent !important;
+}
+#sidebar2 h2, #sidebar2 h3 {
+	background-image: none !important;
+}
+#footer {
+	background-color: transparent !important;
+	background-image: none !important;
+}
+#footer #auter_copyright {
+	background-color: transparent;
+}
+#author_info {
+	background-color: transparent;
+}
+.menu_list_b {
+	background-color: transparent !important;
+}
+.menu_list_c {
+	background-color: transparent !important;
+}
+.menu_list_c b {
+	background-color: transparent !important;
+}
+#back_or_pagetop {
+	background-color: transparent !important;
+}
+.list_type_a_title {
+	background-color: transparent !important;
+	background-image: none !important;
+}
+.list_type_a_title h2 {
+	background-color: transparent !important;
+}
+.list_type_b_list h2 {
+	background-color: transparent !important;
+}
+.list_type_a_list {
+	background-color: transparent !important;
+}
+#banner_footer2 {
+	background-color: transparent !important;
+}
+#kinkyu .span_a { }
+
+/* サブサイトのメイン画像用 */
+#meinimg {
+	background-color: transparent !important;
+}
+#site_name h1 {
+	color: #FFFFFF !important;
+}
+
+/*サブサイトのサイトメニュー用*/
+.sidebar1_box {
+	border: 1px solid #cccccc;
+}
+.sidebar_border {
+	background-image: none !important;
+	border: none;
+}
+
+/* サブサイトのヘッダ用 */
+#site_name h1 {
+	background-color: transparent !important;
+}
+
+/* サブサイトのフッタ用 */
+#site_footer { }
+
+/* 市議会用 */
+#main_header_gikai h1 {
+	background-color: transparent !important;
+}
+
+/* 教育委員会用 */
+#main_header_kyouiku h1 {
+	background-color: transparent !important;
+}
+
+/* 最終ページお問い合わせタイトル */
+#section_footer_title { }
+
+/* 観光トップのサイドメニュー */
+#sidebar1kan { }
+
+/* ライフシーン */
+#life_box {
+	background-color: transparent !important;
+}
+
+/* 360ビューページのヘッダ用 */
+#main_header-view360 h1 {
+	background-color: transparent !important;
+}
+.footer_navi {
+	background-color: transparent !important;
+}
+
+/* 緊急ページ */
+#emer_info {
+	background-image: none !important;
+}
+.h2_b {
+	background-image: none !important;
+}
+#header, #top_topics_wrap, #top_oshirase {
+	background: none transparent;
+}
+.list_ccc li {
+	background-color: transparent;
+}
+.list_type_a_list {
+	background: none transparent;
+}
+#pankuzu_wrap2 {
+	background: none transparent;
+}
+.sidebar1_box {
+	background: transparent;
+}
+#main #main_a .soshiki_list_box {
+	background: none transparent;
+}
+.box_kb {
+	background: none transparent;
+}
+#section_footer {
+	background: none transparent;
+}
+.sidebar1_b {
+	background: none transparent;
+}
+#sidebar1 .box_guide {
+	background: none transparent;
+}
+#box_list div {
+	background: none transparent;
+}
+.list_top_impo li {
+	background: none transparent;
+}
+#emer_massege {
+	background: none transparent;
+}
+
+/*サイトマップ*/
+.sitemap_box.box_height.cf {
+	background-color: transparent!important;
+}
+.sitemap_box.box_height_2.cf {
+	background-color: transparent!important;
+}
+#copyright {
+	color: #ffffff;
+	background: none !important;
+}
+#mainimg {
+	background: none transparent;
+}
+#mainimg_a {
+	background: none transparent;
+}
+
+/* Googleカスタム検索 */
+.gsc-control-cse {
+	border: none !important;
+	background-color: transparent !important;
+}
+
+.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
+	border-color: transparent !important;
+	background-color: transparent !important;
+}
+
+span.gs-fileFormat {
+	color: inherit !important;
+}
+
+.gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType {
+	color: inherit !important;
+}
+
+.gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {
+	color: rgba(255,255,255,0.5) !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page,
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+	background-color: transparent !important;
+}
+
+.gsc-result-info,
+.gsc-orderby-label {
+	color: inherit !important;
+}
+/* Googleカスタム検索ここまで */
+
+
+#side_menu_title {
+	background: none transparent;
+}
+
+form[action^="questionnaire"] input,
+form[action^="questionnaire"] textarea{
+	background-color: rgba(255,255,255,0.25);
+	border: none;
+	outline: 1px solid rgba(255,255,255,0.75);
+	color: inherit;
+}
+form[action^="questionnaire"] select,
+form[action^="questionnaire"] select option{
+	/*  */
+}
+
+
+.selection input[type="text"] {
+	background: rgba(255,255,255,0.2);
+	border: none;
+	outline: 1px solid rgba(255,255,255,0.75);
+	color: inherit;
+}
+
+.result_item_img {
+	background: none;
+}
+#result_page_next a, #result_page_back a {
+	background: none;
+}
+
+.equipment_details dt {
+	background: none;
+}
+.equipment_details .photo {
+	background: none;
+}
+
+
+/* 特殊サブサイト「イベント関連」 */
+.site_event.site_index #mymainback {
+	background: none;
+}
+
+.site_event.site_index #mainimg {
+	background: none;
+}
+
+.site_event #header3wrap {
+	background: none;
+}
+div[class^="event_tag"] div {
+	background: transparent;
+	outline: 1px solid currentColor;
+}
+/* 特殊サブサイト「イベント関連」ここまで */

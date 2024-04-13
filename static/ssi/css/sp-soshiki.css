@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import url("/ssi/css/sp-common.css");
+@import url("/ssi/css/sp-layout.css");
+@import url("/ssi/css/sp-parts-general.css");
+@import url("/ssi/css/sp-general3.css");
+@import url("/ssi/css/sp-parts.css");
+@import url("/ssi/css/sp-kanren.css");
+@import url("/ssi/css/sp-g-navi.css");
+
+#sidebar1 li a{
+}
+
+#sidebar2 .menu_list_c li, #in_sidebar2 .menu_list_c li{
+	margin: 0;
+	padding: 12px;
+	display: block;
+}
+#sidebar2 .menu_list_c li a, #in_sidebar2 .menu_list_c li a{
+	padding: 0;
+}
+.navigation li{
+	width:auto;
+	border:none;
+	display:inline-block;
+}
+
+#sidebar2 > .menu_list_c > h3{
+	background:url("../../img/sp/arrow_d.png") no-repeat 97% center transparent;
+}
+.sidebar1_box{
+	width: auto !important;
+}
+.clm2{
+	width: auto;
+}
+.clm2box{
+	float: none;
+	width: auto;
+	margin: 0;
+}

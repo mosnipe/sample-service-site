@@ -1,0 +1,321 @@
+@charset "utf-8";
+@import url("top.css");
+
+#header{
+	background: none;
+}
+
+#header2 {
+	height: auto;
+}
+
+#he_right_a {
+	top: auto;
+	bottom: 20px;
+}
+
+.header_nav {}
+
+#top_search_keyword {
+	/*margin:5px 15px 0px 10px;*/
+	position: absolute;
+	left: 350px;
+	right: auto;
+	bottom: 20px;
+}
+
+.main_box_important {
+	border-width:0px;
+	background-color:transparent;
+	padding-bottom:0px;
+	margin-bottom: 20px;
+}
+#tit_important{
+	position: relative;
+}
+#tit_important h2{
+	background: url(/img/title_important_bg.png) repeat-x left bottom #cc0000;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	color: #ffffff;
+}
+#tit_important .link_emer_list{
+	position: absolute;
+	right: 1em;
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+	top: 50%;
+	margin-top: -0.5em;
+}
+#tit_important .link_emer_list a{
+	color: #ffffff;
+}
+
+#main .h2_a {
+	background:url("/img/h2_emer_back.gif") no-repeat right top;
+}
+
+.list_top_impo {}
+.list_top_impo ul{
+	margin: 0px;
+	padding: 0px;
+}
+.list_top_impo li{
+	display: table;
+	width: 100%;
+	height: auto;
+	background: #FFD7D7;
+	border: 1px solid #cccccc;
+	margin: 4px 0px;
+	padding: 4px;
+}
+.list_top_impo li > span{
+	display: table-cell;
+	padding: 4px 0px;
+}
+.list_top_impo li > span.article_date{
+	white-space: nowrap;
+	width: 11em;
+	vertical-align: top;
+	text-align: left;
+}
+.list_top_impo li > span.article_title{
+	vertical-align: top;
+	text-align: left;
+}
+.list_top_impo li > span.article_section{
+	white-space: nowrap;
+	background: #665656;
+	width: 10em;
+	padding: 4px;
+	vertical-align: middle;
+	text-align: center;
+}
+.list_top_impo li > span.article_section a{
+	color: #ffffff;
+}
+
+#footer {
+	background-image:none;
+	background-color:transparent;
+	border-top:none;
+}
+
+/* レイアウト */
+#mymainback{
+	margin-top: 20px;
+}
+#sidebar1{
+	width: 250px;
+	margin-right: -250px;
+}
+#sidebar2 {
+	width:250px;
+	margin-right:-250px;
+}
+
+#main {
+	margin-right:-250px;
+}
+#main_a {
+	margin-right:250px;
+	margin-left: 250px;
+	padding: 0px 30px;
+}
+#sidebar_in{}
+#sidebar_in > div{
+	width: 255px;
+	float: left;
+}
+#sidebar_in_1{
+	margin-right: 30px;
+}
+#sidebar_in_2{}
+
+
+/* 緊急災害発生中 */
+
+#emer_message_wrap {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	background:#CC3300;
+}
+#emer_message {
+	width: 1100px;
+	margin: 0px auto;
+	display: table;
+}
+#emer_message > *{
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+#emer_message .message{
+	font-size:160%;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding:8px 12px;
+}
+
+#emer_message p{
+	color:#FFFFFF;
+	padding:8px 8px 8px 0px;
+}
+#emer_message .click a{
+	color:#FFFFFF;
+}
+#emer_message .click a:hover{
+	text-decoration:none;
+}
+
+#bousai_mail{
+	display: table;
+	border: 1px solid #000000;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#bousai_mail > div{
+	display: table-cell;
+	vertical-align: top;
+}
+#bousai_qr{
+	text-align: center;
+}
+
+/* サイドバー */
+
+#sidebar1_banner{
+	margin: 0px 0px 10px;
+}
+#sidebar1_banner ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#sidebar1_banner ul li{
+	margin: 0px 0px 10px;
+	padding: 0px;
+}
+#sidebar1_banner ul.sidebar1_banner_half{
+	position: relative;
+	width: auto;
+	height: 35px;
+	margin-bottom: 10px;
+}
+#sidebar1_banner ul.sidebar1_banner_half li{
+	position: absolute;
+	width: 120px;
+	height: 35px;
+	right: 0px;
+}
+#sidebar1_banner ul.sidebar1_banner_half li:first-child{
+	left: .0px;
+}
+#sidebar1_banner ul.sidebar1_banner_full{}
+
+.waku_emer {
+	width:auto;
+	margin:0px;
+}
+
+.waku_emer h2{
+	font-size:110%;
+	color:#FFFFFF;
+	background:#C81515;
+	margin: 0px;
+	padding:12px;
+}
+.waku_emer ul{
+	margin:0px;
+	padding:0px;
+	line-height:1.4;
+	list-style: none;
+}
+.waku_emer li{
+	position: relative;
+	margin:0px;
+	padding:8px;
+	list-style-type:none;
+	list-style-position:outside;
+	border-bottom: 1px solid #C81515;
+}
+/*.waku_emer li:first-child{
+	border: none;
+}*/
+.waku_emer li .link_external{
+	display: block;
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	margin-top: -9px;
+}
+
+
+/* 緊急災害掲示板 */
+#emer_main{
+	width: 1100px;
+	height:auto;
+	margin: 0px auto;
+	padding:0px;
+	clear:both;
+}
+
+#emer_info{
+	width: auto;
+	height: auto;
+	padding:10px;
+	border:2px #C81616 solid;
+	background-color:#FFD7D7;
+}
+
+#emer_info .h2_red h2{
+	margin:0px;
+	padding:5px 0px;
+	font-size:160%;
+	color:#FF0000;
+}
+
+/* フッター */
+
+#footer {
+	color:#ffffff;
+	background: #cc3300;
+}
+
+#author_info .footer_navi {
+	background-color:#CC3300;
+}
+#author_info .footer_navi ul {
+	float:none;
+}
+#author_info .footer_navi li {
+	display:inline-block;
+	border: none;
+	margin:0px;
+	padding:8px 16px;
+}
+#author_info .footer_navi li:first-child{
+	padding-left: 0px;
+}
+#author_info .footer_navi li a{
+	color: #ffffff;
+}
+
+#author_box {
+	padding:5px 0px;
+	background: none;
+}
+#author_box a:link    {text-decoration: underline; color: #ffffff;}
+#author_box a:visited {text-decoration: underline; color: #ffffff;}
+#author_box a:active  {text-decoration: underline; color: #ffffff;}
+#author_box a:hover   {text-decoration: underline; color: #ffffff;}
+
+#copyright {
+	color: #ffffff;
+	margin: 0px;
+	background: none transparent;
+}
