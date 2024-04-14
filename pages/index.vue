@@ -37,7 +37,7 @@
   <script>
   export default {
     async asyncData({ $axios }) {
-      return { response: await $axios.$get('/rcms-api/6/service/5') };
+      return { response: await $axios.$get('/rcms-api/3/service/3') };
     },
   };
   </script>
