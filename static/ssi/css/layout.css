@@ -154,7 +154,6 @@ body {
 	display: block;
 	position: absolute;
 	top: 50%;
-	margin-top: -14px;
 	width: 47px;
 	height: 27px;
 	background-repeat: no-repeat;
@@ -352,12 +351,11 @@ a:hover {
 	width: 100%;
 }
 #main {
-	width: 100%;
-	float: left;
+	width: 80%;
 	text-align: left;
 	margin-top: 0;
-	margin-right: -205px;
 	padding: 0;
+	margin-right: auto;  /* 右のマージンを自動に設定 */
 	position: relative;
 	z-index: 1;
 }
@@ -404,7 +402,7 @@ a:hover {
 	width: 12em;
 	text-align: right;
 	margin: 0 0 0 0;
-	padding: 0 0 0 22px;
+	padding: 0 0 0 0px;
 	background: url(/img/print-icon.jpg) no-repeat left center;
 	height: 1em;
 }
