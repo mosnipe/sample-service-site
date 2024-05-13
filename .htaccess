@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# 時間を基準にしたリダイレクトの制御
+# 日本時間に合わせるためにサーバー時間との差を調整する必要がある
+# 日本時間での公開日時を2024年5月13日12:30とする
+RewriteCond %{TIME_YEAR}%{TIME_MON}%{TIME_DAY}%{TIME_HOUR}%{TIME_MIN} <202405131230
+RewriteCond %{REQUEST_URI} ^/site/theme/h-18-kiban\.html$
+RewriteRule ^.*$ https://mosnipe.g.kuroco-front.app/ [R=302,L]
+
+# 2024年5月13日12:30以降はリダイレクトしないため、特にルールを書く必要はない
