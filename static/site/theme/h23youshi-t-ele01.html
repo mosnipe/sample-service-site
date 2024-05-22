@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>無線ノードと非接触型センサを用いた電力監視システムの構築 - 都産技研ホームページ</title>
+<style type="text/css" media="all">
+@import url("/ssi/css/site.css");
+</style>
+<link rel="stylesheet" type="text/css" media="print" href="/ssi/css/print.css">
+<script type="text/javascript" src="/ssi/js/color.js"></script>
+<script type="text/javascript" src="/ssi/js/fontsize.js"></script>
+<script type="text/javascript" src="/ssi/js/print.js"></script>
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<script type="text/javascript" src="/ssi/js/jquery.js"></script>
+<script type="text/javascript" src="/ssi/js/jquery-migrate.js"></script>
+<script type="text/javascript" src="/ssi/js/checksp.js"></script>
+<script type="text/javascript" src="/ssi/js/viewskiplink.js"></script>
+<script type="text/javascript" src="/ssi/js/match-height.js"></script>
+<script type="text/javascript" src="/ssi/js/smart.js"></script>
+<script type="text/javascript" src="/ssi/js/gnav-tab.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S8TN6N7EE9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8TN6N7EE9');
+  gtag('config', 'UA-12464096-1');
+</script>
+
+
+<!-- これ追加 -->
+<link rel="stylesheet" type="text/css" href="/ssi/css/layout.css">
+<!-- ↑ -->
+</head>
+<body>
+  <header class="l-header">
+    <a href="/"><img src="/ssi/img/logo.svg" alt="東京都立産業技術研究センター"></a>
+  </header>
+
+  <div class="l-container">
+
+    <!-- ここからスクレイピング内容 -->
+    <div id="main">
+      <div id="main_a">
+        <hr class="hide">
+        <a id="skip" name="skip">本文</a>
+
+        <!-- main_bodyここから -->
+        <div id="main_body">
+            
+
+
+
+<div id="main_header">
+<h1>無線ノードと非接触型センサを用いた電力監視システムの構築</h1>
+</div>
+
+<div id="content_header" class="text_r"><a id="print_mode_link" href="javascript:print_mode();">印刷用ページを表示する</a>　更新日：2016年12月19日更新</div>
+<div class="detail_free"><p style="text-align: right;">武田 有志［発表者］（情報技術グループ）、大原 衛（経営企画室）、金田 泰昌（情報技術グループ）、阿部 真也（経営情報室）</p><h2>1.はじめに</h2><p>&nbsp; 近年、省エネルギ化対策の一環として、工場やオフィスでの電力監視システムが開発されている。このようなシステムの導入は、見える化による環境意識向上だけでなく、機器の運転方法の見直しや低電力機器への置換により節電につながる。本システムは1 台の電力計と、温度・加速度・照度等の非接触型センサを持つ複数のZigBee 無線ノードで構成される（図1）。各測定対象にはクランプメータが不要であるという特徴を持ち、設置コストの削減に寄与する。また、測定データはPC上のデータベースに蓄積され、汎用ブラウザを通じJavaScript により可視化される。</p><p style="text-align: center;"><img alt="電力監視システムの構成の図" src="/uploaded/image/1581.jpg" style="height:252px; width:400px"><br>図1 電力監視システムの構成</p><h2>2.電力使用量推定アルゴリズム</h2><p>&nbsp; 推定は、（1）機器稼働状況ON/OFF の検出、（2）個々の電力使用量の推定、の2 ステージから成る。（1）では大津法（統計解析の一手法）を用い、ヒストグラムを最適に2 分割するレベルでON/OFF 判定の閾値を求める。（2）では連立方程式の解法を用い、（1）で得られた0/1 組合せ状態と電力計の変化量から各機器の使用量を確定する。（1）は設置場所でのセンサゼロ点調整を不要にし、（2）は測定対象におけるカタログスペック上の電力設定を省くのに効果がある。</p><h2>3.結果・考察</h2><p>&nbsp; 図2はエアコンプレッサに対する測定の様子を示す。動作時間（500W を超えた時間）は229 秒である。Peak-to-Peak の単純な中間値と（1）の方法とでは各々161 秒、210 秒とされ、（1）は識別率を向上させた。一方、図3は機器数（＝ノード数）10、機器電力20から200W、電力使用量ランダム誤差±5%、誤差変動間隔60 秒、ON/OFF 変化率50%で、推定値との差をシミュレーションにより求めた結果を示す。この結果、1 分間隔でON/OFFを切り替えると20 分程度で設置が完了する。ニューラルネットワークは精度が悪いが、20分経過前の補完としての利用が見込める。</p><p style="text-align: center;"><img alt="加速度センサ付ZigBee ノードでの測定の図" src="/uploaded/image/1582.jpg" style="height:239px; width:350px"><br>図2 加速度センサ付ZigBee ノードでの測定</p><p style="text-align: center;"><img alt="個々の推定使用量と実際との差の図" src="/uploaded/image/1583.jpg" style="height:236px; width:350px"><br>図3 個々の推定使用量と実際との差</p><h2>4.まとめ</h2><p>&nbsp; 設置の容易な非接触型センサによる電力監視システムついて報告した。今後は、実証実験と測定精度を高めるためのアルゴリズム開発を進める。</p></div>
+
+
+
+
+
+<!-- section_footerここから -->
+<!--<div id="section_footer">
+
+</div>-->
+<!-- section_footerここまで -->
+
+<!-- [[add-template-pdf]] -->
+<!-- [[add-template-windowsmediaplayer]] -->
+
+
+        </div>
+      </div>
+      <!-- ここまでスクレイピング内容 -->
+
+    </div>
+    <!-- l-container -->
+
+
+    <!-- フッター -->
+    <footer class="l-footer">
+      <div class="l-footer_bottom">
+        <div class="l-container">
+          <div class="l-footer_bottom_head">
+            <div class="l-footer_bottom_head_main">
+              <a class="l-footer_bottom_head_main_logo" href="/"><img loading="lazy" src="/ssi/img/logo_w.svg" alt="地方独立行政法人 東京都立産業技術研究センター" width="422" height="40"></a>
+              <p class="l-footer_bottom_head_main_txt">法人番号：6010605002434</p>
+            </div>
+          </div>
+          <p class="l-footer_bottom_copy">© 2024 Tokyo Metropolitan Industrial Technology Research Institute</p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+  </html>
