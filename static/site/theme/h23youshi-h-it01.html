@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+    
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>FPGA/SoCによる組込みRTOSタスクトレーサIPの開発 - 都産技研ホームページ</title>
+<style type="text/css" media="all">
+@import url("/ssi/css/site.css");
+</style>
+<link rel="stylesheet" type="text/css" media="print" href="/ssi/css/print.css">
+<script type="text/javascript" src="/ssi/js/color.js"></script>
+<script type="text/javascript" src="/ssi/js/fontsize.js"></script>
+<script type="text/javascript" src="/ssi/js/print.js"></script>
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<script type="text/javascript" src="/ssi/js/jquery.js"></script>
+<script type="text/javascript" src="/ssi/js/jquery-migrate.js"></script>
+<script type="text/javascript" src="/ssi/js/checksp.js"></script>
+<script type="text/javascript" src="/ssi/js/viewskiplink.js"></script>
+<script type="text/javascript" src="/ssi/js/match-height.js"></script>
+<script type="text/javascript" src="/ssi/js/smart.js"></script>
+<script type="text/javascript" src="/ssi/js/gnav-tab.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-S8TN6N7EE9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S8TN6N7EE9');
+  gtag('config', 'UA-12464096-1');
+</script>
+
+
+    <!-- これ追加 -->
+    <link rel="stylesheet" type="text/css" href="/ssi/css/layout.css">
+    <!-- ↑ -->
+</head>
+<body>
+<header class="l-header">
+    <a href="/"><img src="/ssi/img/logo.svg" alt="東京都立産業技術研究センター"></a>
+</header>
+
+<div class="l-container">
+
+    <!-- ここからスクレイピング内容 -->
+    <div id="main">
+        <div id="main_a">
+            <hr class="hide">
+            <a id="skip" name="skip">本文</a>
+
+            <!-- main_bodyここから -->
+            <div id="main_body">
+                
+
+
+
+<div id="main_header">
+<h1>FPGA/SoCによる組込みRTOSタスクトレーサIPの開発</h1>
+</div>
+
+<div id="content_header" class="text_r"><a id="print_mode_link" href="javascript:print_mode();">印刷用ページを表示する</a>　更新日：2016年12月19日更新</div>
+<div class="detail_free"><p>&nbsp;</p><p align="right">武田 有志［発表者］、岡部 忠、仲村 将司（情報技術グループ） 、佐藤 研（電子・機械グループ）</p><h2>1.はじめに</h2><p>&nbsp; 近年の組込みシステムでは、EthernetやUSB等の通信処理に対してRTOS（Real-Time OS）を利用した開発が行われている。タスク実行の把握にはタスクトレースが有用であり、その実現にはOSのサービスコールに対するソフト的なフックが数多く見られる。しかし、この方法では、フック挿入／除去によって実行時間が変化するため、時間制約の厳しい通信システムの検証には不向きである。また、FPGA/SoCではマルチコア化が進められており、FPGA/SoC＋RTOS環境下での膨大なトレースデータを抑える仕組みが今後不可欠になると予想される。そこで、本研究では、これらを解決するトレーサIPを開発した。</p><h2>2.トレーサIPの構成</h2><p>&nbsp; 図1は、トレーサIPの構成を示している。Altera社の汎用バスAvalon Busには複数コア（NiosII/e）が接続されており、他方でコアのアドレス／データバスにはトレーサIPが接続されている。トレーサIPは、バススヌーピング方式を採用しており、コアに対してトレース処理の負荷がかからないように構成されている。トレーサIPは、コア各々に対する複数タップと1つのマスタ、そして、トレースデータを送信するUSB2.0通信I/Fから成る。タップではコアがTCB（Task Control Block）にアクセスした際をトリガとしてトレースデータを取得する。マスタでは取得された前回データと新データとの差分を取り、すべて0もしくは1となる上位データを送信しないことでデータ圧縮を実現する（図2）。</p><p align="center"><img alt="トレーサIPの構成の図" src="/uploaded/image/1486.jpg" style="height:267px; width:380px"><br>図1 トレーサIPの構成</p><p align="center"><img alt="トレースデータの圧縮の図" src="/uploaded/image/1487.jpg" style="height:259px; width:380px"><br>図2 トレースデータの圧縮</p><h2>3.結果・考察</h2><p>&nbsp; 対応可能なコア数についてデータ量とハードウェア量で評価する。タスク遷移間における最大のトレース数は、87.3トレース/msecであった。1トレースは16バイトで構成されており、転送速度は1コア当たり11.2 Mbps必要である。今回使用したUSB2.0チップ（FT2232H）は最大220Mbpsであることから、19.6コアまで対応できる。さらに図2の圧縮を有効にすると、データ量は45.2%削減された。図3はハードウェア使用量を示しており、20k LEの回路規模を有するFPGAでは、4コアまで対応できる。</p><p style="text-align: center;"><img alt="コアに対するハードウェア使用量の図" src="/uploaded/image/1488.jpg" style="height:303px; width:280px"><br>図3 コアに対するハードウェア使用量</p><h2>4.まとめ</h2><p>&nbsp; 本IPは、マルチコア対応かつコア負荷がゼロであることを特徴とする。今後、組込みシステムは高信頼化が求められると予想される。本IPは、こうした分野への導入が期待される。</p><p>&nbsp;</p></div>
+
+
+
+
+
+<!-- section_footerここから -->
+<!--<div id="section_footer">
+
+</div>-->
+<!-- section_footerここまで -->
+
+<!-- [[add-template-pdf]] -->
+<!-- [[add-template-windowsmediaplayer]] -->
+
+
+            </div>
+        </div>
+        <!-- ここまでスクレイピング内容 -->
+    </div>
+</div>
+<!-- l-container -->
+
+<!-- フッター -->
+<footer class="l-footer">
+    <div class="l-footer_bottom">
+        <div class="l-container">
+            <div class="l-footer_bottom_head">
+                <div class="l-footer_bottom_head_main">
+                    <a class="l-footer_bottom_head_main_logo" href="/"><img loading="lazy" src="/ssi/img/logo_w.svg"
+                                                                            alt="地方独立行政法人 東京都立産業技術研究センター"
+                                                                            width="422" height="40"></a>
+                    <p class="l-footer_bottom_head_main_txt">法人番号：6010605002434</p>
+                </div>
+            </div>
+            <p class="l-footer_bottom_copy">© 2024 Tokyo Metropolitan Industrial Technology Research Institute</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
