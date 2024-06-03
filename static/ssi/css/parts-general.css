@@ -17,7 +17,7 @@
 	font-size: 165%;
 	font-weight: bold;
 	line-height: 1.4em;
-	background: url(/img/midashi/h1bg.gif) no-repeat left center #17479D;
+	background: #324EB3;
 	color: #FFFFFF;
 }
 
@@ -26,16 +26,15 @@
 	font-size: 125%;
 	margin-bottom: 0.3em;
 	padding: 0.9em 1em 0.9em 43px;
-	background: url(/img/midashi/h2bg.gif) no-repeat left center #EEEAEA;
-	border-bottom: 2px solid #EE4029;
+	background: #F3F3F3;
+	border-bottom: 2px solid #CF131A;
 }
 
 #main_body h3 {
 	clear: both;
 	font-size: 120%;
 	padding: 0.6em 1em 0.6em 43px;
-	background: url(/img/midashi/h3bg.gif) no-repeat left center;
-	border-bottom: 2px solid #17479D;
+	border-bottom: 2px solid #324EB3;
 }
 
 #main_body h4 {
@@ -43,8 +42,7 @@
 	font-size: 100%;
 	margin: 0px 0px 10px 0px;
 	padding: 0.4em 1em 0.4em 43px;
-	background: url(/img/midashi/h4bg.gif) no-repeat left center;
-	border-bottom: 1px solid #003592;
+	border-bottom: 1px solid #324EB3;
 }
 
 #main_body h5 {
