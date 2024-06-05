@@ -51,7 +51,7 @@ body{
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
-			margin-bottom: 44px;
+			margin-bottom: 24px;
 			@media (max-width: 1280px) {
 				flex-wrap: wrap;
 				margin-bottom: 16px;
@@ -80,6 +80,53 @@ body{
 			}
 		}
 		// bottomhead
+
+		&_link{
+			list-style: none;
+			padding: 0;
+			@media (max-width: 1280px) {
+				margin-bottom: 1rem;
+			}
+			&_item{
+				display: inline-block;
+				font-size: 14px;
+				@media (max-width: 1280px) {
+					width: 100%;
+					border-top: 1px solid #6A6A6A;
+					position: relative;
+					&:last-of-type{
+						border-bottom: 1px solid #6A6A6A;
+					}
+					&::after{
+						content: "";
+						width: 22px;
+						height: 22px;
+						background: url('/ssi/img/ico_arrow_nav_w.svg') no-repeat;
+						background-size: contain;
+						position: absolute;
+						right: 0;
+						top: calc(50% - 11px);
+					}
+				}
+				& + .l-footer_bottom_link_item{
+					margin-left: 2rem;
+					@media (max-width: 1280px) {
+						margin-left: 0;
+					}
+				}
+				a{
+					color: #fff;
+					line-height: 1;
+					text-decoration: none;
+					@media (max-width: 1280px) {
+						display: block;
+						padding-bottom: 1rem;
+						padding-top: 1rem;
+					}
+				}
+			}
+		}
+		// bottomlink
 
 		&_copy{
 			color: #fff;
