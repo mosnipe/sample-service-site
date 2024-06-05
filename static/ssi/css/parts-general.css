@@ -26,15 +26,14 @@
 	font-size: 125%;
 	margin-bottom: 0.3em;
 	padding: 0.9em 1em 0.9em 43px;
-	background: #F3F3F3;
-	border-bottom: 2px solid #CF131A;
+	background: #EAEDF7;
 }
 
 #main_body h3 {
 	clear: both;
 	font-size: 120%;
 	padding: 0.6em 1em 0.6em 43px;
-	border-bottom: 2px solid #324EB3;
+	border-bottom: 2px solid #9FADE2;
 }
 
 #main_body h4 {
