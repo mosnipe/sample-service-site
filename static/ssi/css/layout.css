@@ -26,6 +26,10 @@ body {
     padding-right: 1.25rem;
   }
 }
+.l-container #main {
+  width: 100% !important;
+  margin: 0 !important;
+}
 
 .l-header {
   width: 100%;
